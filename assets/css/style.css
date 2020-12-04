@@ -2,5 +2,53 @@
 
 body {
     font-family:'Roboto', sans-serif;
+    
 }
 
+/*------------------Navbar style--------------*/
+
+.bg-custom {
+    background-color: #000; 
+    
+}
+
+.navbar-custom {
+    color:#EC019C;
+    font-size: 30px;
+    font-weight: 800;
+    text-shadow: 1px 1px #A6ACAF;
+}
+
+.navbar-custom:hover {
+    color: #A6ACAF;
+    text-shadow: 2px 2px  #000;
+    text-decoration: none;
+}
+
+
+/*--------------------------Images------------------*/
+
+.hero-image {
+     background: url("../images/heroimage.jpg") center no-repeat;
+     height: 600px;
+     width: 100%;
+     background-position: center;
+     background-size: cover;
+    
+      
+     
+
+
+}
+/*----------------------------@media Queries---------------*/
+
+@media screen and (max-width:850px) {
+    .hero-image {
+    background: url("../images/heroimage.jpg") center no-repeat;
+     height: 600px;
+     width: 100%;
+     background-position: center;
+     background-size:100% 100%;
+
+    }
+}
