@@ -13,7 +13,7 @@ body {
 }
 
 .navbar-custom {
-    color:#EC019C;
+    color:#dc3545;
     font-size: 30px;
     font-weight: 800;
     text-shadow: 1px 1px #A6ACAF;
@@ -33,22 +33,100 @@ body {
      height: 600px;
      width: 100%;
      background-position: center;
-     background-size: cover;
+     background-size:cover;
+     overflow: none;
     
       
      
 
 
 }
+
+.callout-text {
+    margin-top: 20px;
+    float: right;
+    margin-right: auto;
+    color:#A6ACAF;
+    text-align: center;
+   
+    
+    
+  
+   
+}
+
+.callout-button {
+    margin-top: 20px;
+    margin-left:auto;
+    margin-right: auto;
+    
+     
+   
+    
+    
+}
+.callout-button:hover {
+    color: #000;
+    background-color: #EC019C;
+    
+
+}
+
+.about-color {
+    height: 600px;
+    background-color: #000;
+}
+
+
 /*----------------------------@media Queries---------------*/
 
 @media screen and (max-width:850px) {
     .hero-image {
     background: url("../images/heroimage.jpg") center no-repeat;
-     height: 600px;
+     height: 400px;
      width: 100%;
      background-position: center;
      background-size:100% 100%;
+    }
 
+     .callout-text {
+    margin-left: auto;
+    margin-right: auto;
+    color:#A6ACAF;
+    display: blsock;
+    text-align: center;
+    float:none;
+    }
+
+    .callout-button {
+        float:none;
+        margin-top: 140px;
+        display: inline;
+        margin-left: auto;
+        margin-right: auto:
+        
+      
+           }
+
+}
+      
+    @media screen and (max-width:995px) {
+    .callout-text {
+    margin-top: 65px;
+    margin-left: auto;
+    margin-right: auto;
+    color:#A6ACAF;
+    display: block;
+    text-align: center;
+    float: none;
+    }
+
+    .callout-button {
+        float:none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto:
+      
     }
 }
+
