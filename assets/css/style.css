@@ -1,132 +1,132 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap');
-
-body {
-    font-family:'Roboto', sans-serif;
-    
+ body {
+	font-family: 'Roboto', sans-serif;
 }
-
 /*------------------Navbar style--------------*/
 
 .bg-custom {
-    background-color: #000; 
-    
+	background-color: #000;
 }
-
 .navbar-custom {
-    color:#dc3545;
-    font-size: 30px;
-    font-weight: 800;
-    text-shadow: 1px 1px #A6ACAF;
+	color: #dc3545;
+	font-size: 30px;
+	font-weight: 800;
+	text-shadow: 1px 1px #A6ACAF;
 }
-
 .navbar-custom:hover {
-    color: #A6ACAF;
-    text-shadow: 2px 2px  #000;
-    text-decoration: none;
+	color: #A6ACAF;
+	text-shadow: 2px 2px #000;
+	text-decoration: none;
 }
-
-
 /*--------------------------Images------------------*/
 
 .hero-image {
-     background: url("../images/heroimage.jpg") center no-repeat;
-     height: 600px;
-     width: 100%;
-     background-position: center;
-     background-size:cover;
-     overflow: none;
-    
-      
-     
-
-
+	background: url("../images/heroimage.jpg") center no-repeat;
+	height: 600px;
+	width: 100%;
+	background-position: center;
+	background-size: cover;
+	overflow: none;
 }
+/*--------------------------Callout/call to action--------------*/
 
 .callout-text {
-    margin-top: 20px;
-    float: right;
-    margin-right: auto;
-    color:#A6ACAF;
-    text-align: center;
-   
-    
-    
-  
-   
+	margin-top: 20px;
+	float: right;
+	margin-right: auto;
+	color: #A6ACAF;
+	text-align: center;
 }
-
 .callout-button {
-    margin-top: 20px;
-    margin-left:auto;
-    margin-right: auto;
-    
-     
-   
-    
-    
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
 }
 .callout-button:hover {
-    color: #000;
-    background-color: #EC019C;
-    
-
+	color: #000;
+	background-color: #EC019C;
 }
+/*---------------------About Section..........*/
 
-.about-color {
-    height: 600px;
-    background-color: #000;
+.section-color {
+	background-color: #000;
 }
-
-
+.section-heads {
+	text-transform: uppercase;
+	color: #A6ACAF;
+	font-weight: 500;
+	font-size: 30px;
+	text-align: center;
+	padding-top: 20px;
+}
+.about-text {
+	margin: 5px 20% 0 20%;
+	font-size: 19px;
+	color: #A6ACAF;
+	border: 2px solid #A6ACAF;
+	margin: 20px 10% 40px 10%;
+	padding: 12px;
+	box-shadow: 1px 1px 4px 4px;
+	line-height: 25px;
+	text-align: left;
+}
 /*----------------------------@media Queries---------------*/
 
-@media screen and (max-width:850px) {
-    .hero-image {
-    background: url("../images/heroimage.jpg") center no-repeat;
-     height: 400px;
-     width: 100%;
-     background-position: center;
-     background-size:100% 100%;
-    }
-
-     .callout-text {
-    margin-left: auto;
-    margin-right: auto;
-    color:#A6ACAF;
-    display: blsock;
-    text-align: center;
-    float:none;
-    }
-
-    .callout-button {
-        float:none;
-        margin-top: 140px;
-        display: inline;
-        margin-left: auto;
-        margin-right: auto:
-        
-      
-           }
-
+@media screen and (max-width: 850px) {
+	.hero-image {
+		background: url("../images/heroimage.jpg") center no-repeat;
+		height: 400px;
+		width: 100%;
+		background-position: center;
+		background-size: 100% 100%;
+	}
+	.callout-text {
+		margin-left: auto;
+		margin-right: auto;
+		color: #A6ACAF;
+		display: blsock;
+		text-align: center;
+		float: none;
+	}
+	.callout-button {
+		float: none;
+		margin-top: 140px;
+		display: inline;
+		margin-left: auto;
+		margin-right: auto:
+	}
 }
-      
-    @media screen and (max-width:995px) {
-    .callout-text {
-    margin-top: 65px;
-    margin-left: auto;
-    margin-right: auto;
-    color:#A6ACAF;
-    display: block;
-    text-align: center;
-    float: none;
-    }
-
-    .callout-button {
-        float:none;
-        display: block;
-        margin-left: auto;
-        margin-right: auto:
-      
-    }
+@media screen and (max-width: 994px) {
+	.callout-text {
+		margin-top: 65px;
+		margin-left: auto;
+		margin-right: auto;
+		color: #A6ACAF;
+		display: block;
+		text-align: center;
+		float: none;
+	}
+	.callout-button {
+		float: none;
+		display: block;
+		margin-left: auto;
+		margin-right: auto:
+	}
 }
-
+@media screen and (max-width: 281px) {
+	.callout-text {
+		margin-top: 2px;
+		margin-left: auto;
+		margin-right: auto;
+		color: #A6ACAF;
+		display: block;
+		text-align: center;
+		float: none;
+	}
+	.callout-button {
+		float: none;
+		display: block;
+		margin-left: auto;
+		margin-right: auto:
+	}
+}
