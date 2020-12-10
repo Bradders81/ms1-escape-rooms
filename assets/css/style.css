@@ -1,8 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap');
+
+/*-------------------Default styles & fonts--------------*/
+
  body {
 	font-family: 'Roboto', sans-serif;
+    color: #A6ACAF
 }
+
 /*------------------Navbar style--------------*/
+
+
 
 .bg-custom {
 	background-color: #000;
@@ -28,13 +35,15 @@
 	background-size: cover;
 	overflow: none;
 }
-/*--------------------------Callout/call to action--------------*/
 
+/*--------------------------Callout/call to action--------------*/
+.footer {
+    position: grid;
+}
 .callout-text {
 	margin-top: 20px;
 	float: right;
 	margin-right: auto;
-	color: #A6ACAF;
 	text-align: center;
 }
 .callout-button {
@@ -46,14 +55,16 @@
 	color: #000;
 	background-color: #EC019C;
 }
+
 /*---------------------About Section..........*/
 
 .section-color {
 	background-color: #000;
+    
 }
 .section-heads {
 	text-transform: uppercase;
-	color: #A6ACAF;
+    color: #dc3545;
 	font-weight: 500;
 	font-size: 30px;
 	text-align: center;
@@ -62,7 +73,6 @@
 .about-text {
 	margin: 5px 20% 0 20%;
 	font-size: 19px;
-	color: #A6ACAF;
 	border: 2px solid #A6ACAF;
 	margin: 20px 10% 40px 10%;
 	padding: 12px;
@@ -70,6 +80,33 @@
 	line-height: 25px;
 	text-align: left;
 }
+
+/*----------------------------Customer Comments---------------*/
+
+
+
+/*---------------------------Footer--------------------------*/
+
+
+.footer-style {
+    background-color: #dc3545;
+    text-align: center;
+    color: #f0f0f0;
+    line-height: auto;
+    padding-top: 10px;
+    Padding-bottom: 10px;
+        
+}
+
+.socila-icons {
+    display: inline;
+    margin: 0 20px 0 20px;
+}
+
+
+
+
+
 /*----------------------------@media Queries---------------*/
 
 @media screen and (max-width: 850px) {
@@ -83,7 +120,6 @@
 	.callout-text {
 		margin-left: auto;
 		margin-right: auto;
-		color: #A6ACAF;
 		display: blsock;
 		text-align: center;
 		float: none;
@@ -101,7 +137,6 @@
 		margin-top: 65px;
 		margin-left: auto;
 		margin-right: auto;
-		color: #A6ACAF;
 		display: block;
 		text-align: center;
 		float: none;
@@ -118,7 +153,6 @@
 		margin-top: 2px;
 		margin-left: auto;
 		margin-right: auto;
-		color: #A6ACAF;
 		display: block;
 		text-align: center;
 		float: none;
