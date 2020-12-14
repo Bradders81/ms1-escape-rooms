@@ -1,103 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-      <meta name="Description" content="Enter your description here" />
-      <link
-         rel="stylesheet"
-         href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css"
-         />
-      <link
-         rel="stylesheet"
-         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css"
-         />
-      <link rel="stylesheet" href="assets/css/style.css" />
-      <title>Puzzle Locked</title>
-   </head>
-   <body>
-      <header>
-         <!----Credit Bootstrap Navbar-->
-         <nav class="navbar navbar-expand-md navbar-dark bg-custom">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Puzzle Locked</title>
+</head>
+
+<body>
+    <header>
+        <!----Credit Bootstrap Navbar (styled using CSS)-->
+        <nav class="navbar navbar-expand-md navbar-dark bg-custom ">
             <a class="navbar-custom" href="index.html">Puzzle Locked!</a>
-            <button
-               class="navbar-toggler test"
-               type="button"
-               data-toggle="collapse"
-               data-target="#navbarNavAltMarkup"
-               aria-controls="navbarNavAltMarkup"
-               aria-expanded="false"
-               aria-label="Toggle navigation"
-               >
-            <span class="navbar-toggler-icon"></span>
+            <button class="navbar-toggler test" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-               <div class="navbar-nav ml-auto">
-                  <a class="nav-link" href="index.html">Home</a>
-                  <a class="nav-link active" href="#">Rooms</a>
-                  <a class="nav-link" href="#">Gallery</a>
-                  <a class="nav-link" href="#">Booking & Contact Us</a>
-               </div>
+                <div class="navbar-nav ml-auto">
+                 <a class="nav-link" href="index.html">Home</a>
+                    <a class="nav-link active" href="rooms.html">Rooms</a>
+                    <a class="nav-link" href="gallery.html">Gallery</a>
+                    <a class="nav-link" href="bookingcontact.html">Booking & Contact Us</a>
+                </div>
             </div>
-         </nav>
-         <!-----/ End credit Bootstrap Navbar-->
-      </header>
-     
-      <!-----------Footer Section--------------->
-      <footer class="container-fluid footer-style" footer>
+        </nav>
+        <!-----/ End credit Bootstrap Navbar-->
+    </header>
+    <!------------Rooms Section---------------->
+    <section class="container-fluid section-color section-heads">
+        <div class="row">
+            <div class="col-md-12 col-lg-6">
+               <img class="r1-images" src="assets/images/virtual1.jpg" alt="impage of man plaing virtual reality">
+            </div>
+                <div class="col-md-12 col-lg-6">
+                    <div class="room-2">
+                        <div>image
+                        </div>
+                    </div>
+                </div>
+        </div>
          <div class="row">
+            <div class="col-md-12 col-lg-6">
+                <div class="room-3">
+                    <div>image
+                    </div>
+                </div>
+            </div>
+                <div class="col-md-12 col-lg-6">
+                    <div class="room-4">
+                        <div>image
+                        </div>
+                    </div>
+                </div>
+        </div>
+
+    </section>
+    <!-----------Footer Section--------------->
+    <footer class="container-fluid footer-style">
+        <div class="row">
             <div class="col-4">
-               <p><i class="far fa-copyright"></i> 
-                  This site is for education purposes
-               </p>
+                <p class="caveat"><i class="far fa-copyright"></i>
+                    This site is for education purposes.
+                </p>
             </div>
-         
-         <div class="col-4 mailing list">
-            <!----------Credit Boostrap Modal-------->
-            <!-- Button trigger modal -->
-            <button type="button" id="btn-position" class="btn btn-warning"  data-toggle="modal" data-target="#staticBackdrop">
-            Join Mailing List!
-            </button>
-            <!-- Modal -->
-            <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-               <div class="modal-dialog">
-                  <div class="modal-content">
-                     <div class="modal-header">
-                        <h5 class="modal-title" id="staticBackdropLabel">Mailing List</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                        </button>
-                     </div>
-                     <div class="modal-body">
-                        <p> Join our mailing list so we can keep you up to date with our news and latest offers.</p>
-                        <form>
-                           <input type="text"><input type="submit" value="Submit">
-                           <input type="text"><input type="submit" value="Submit">
-                        </form>
-                        <p><small>We wil never share your e-mail address</small></p>
-                     </div>
-                     <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <!----<button type="button" class="btn btn-danger">Understood</button>---->
-                     </div>
-                  </div>
-               </div>
+
+            <div class="col-sm-12 col-lg-4 mailing list">
+                <!----------Credit Boostrap Modal (which has a form added and styled using CSS)-------->
+                <!-- Button trigger modal -->
+                <button type="button" id="btn-position" class="btn btn-warning" data-toggle="modal"
+                    data-target="#staticBackdrop">
+                    Join Mailing List!
+                </button>
+                <!-- Modal -->
+                <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1"
+                    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="staticBackdropLabel">Mailing List</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <p class="model-text"> Join our mailing list to stay up to date with news and our latest
+                                    offers.
+                                </p><br>
+                                <form>
+                                    <input class="inputs" type="text" id="fname" placeholder="First Name"><br><br>
+                                    <input class="inputs" type="text" id="lname" placeholder="Surname"><br><br>
+                                    <input class="inputs" type="email" id="email" placeholder="Email Address"><br><br>
+                                    <input class="submit-btn-style" type="submit" value="Join">
+                                </form>
+                                <br>
+                                <p><small>We wil never share your details within anyone else.</small></p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                <!----<button type="button" class="btn btn-danger">Understood</button>---->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!----------***/End of Credit Boostrap Modal***------>
             </div>
-            <!----------***/End of Credit Boostrap Modal***------>
-         </div>
-         <div class="col-4 social-media">
-         <ul>
-            <li class="socila-icons"><i class="fab fa-facebook-square"></i></li>
-            <li class="socila-icons"><i class="fab fa-twitter"></i></li>
-            <li class="socila-icons"><i class="fab fa-instagram"></i></li>
-            <li class="socila-icons"><i class="fab fa-youtube"></i></li>
-            </ul>
-         </div>
-         </div>
-      </footer>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
-   </body>
+            <div class="col-sm-12 col-lg-4 social-media">
+                <ul>
+                    <li class="social icons"><a href="https://www.facebook.com" target="_blank"><i
+                                class="fab fa-facebook-square"></i></a></li>
+                    <li class="social icons"><a href="https://www.twitter.com" target="_blank"><i
+                                class="fab fa-twitter"></i> </a> </li>
+                    <li class="social icons"><a href="https://www.instagram.com" target="_blank"><i
+                                class="fab fa-instagram"></i></a></li>
+                    <li class="social icons"><a href="https://www.youtube.com" target="_blank"><i
+                                class="fab fa-youtube"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
 </html>
