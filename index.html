@@ -14,7 +14,8 @@
 </head>
 
 <body>
-    <header>
+    <!----Credit Bootstrap Navbar (styled using CSS)--->
+    <header class="sticky-top">
         <!----Credit Bootstrap Navbar (styled using CSS)-->
         <nav class="navbar navbar-expand-md navbar-dark bg-custom ">
             <a class="navbar-custom" href="index.html">Puzzle Locked!</a>
@@ -81,25 +82,25 @@
             </div>
         </div>
         <div class="row cust-comments">
-            <div id="review1" class="col-sm-12 col-md-6 col-lg-3 reivew">
+            <div id="review1" class="col-sm-12 col-md-6 reivew">
                 Review 1
                 <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                     et dolore magna aliqua.
                 </p>
             </div>
-            <div id="review2" class="col-sm-12 col-md-6 col-lg-3 reivew">
+            <div id="review2" class="col-sm-12 col-md-6">
                 Review 2
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                     et dolore magna aliqua.
                 </p>
             </div>
-            <div id="review3" class="col-sm-12 col-md-6 col-lg-3 reivew">
+            <div id="review3" class="col-sm-12 col-md-6">
                 Review 3
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                     et dolore magna aliqua.
                 </p>
             </div>
-            <div id="review4" class="col-sm-12 col-md-6 col-lg-3 reivew">
+            <div id="review4" class="col-sm-12 col-md-6">
                 Review 4
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                     et dolore magna aliqua.
@@ -108,18 +109,18 @@
         </div>
     </section>
     <!-----------Footer Section--------------->
-    <footer class="container-fluid footer-style">
+    <footer class="container-fluid">
         <div class="row">
-            <div class="col-4">
+            <div class=" d-none d-lg-block col-4 ">
                 <p class="caveat"><i class="far fa-copyright"></i>
                     This site is for education purposes.
                 </p>
             </div>
 
-            <div class="col-sm-12 col-lg-4 mailing list">
-                <!----------Credit Boostrap Modal (which has a form added and styled using CSS)-------->
+            <div class="col-sm-6 col-lg-4">
+                <!----------Credit: Boostrap Modal (which has a form added and styled using CSS)-------->
                 <!-- Button trigger modal -->
-                <button type="button" id="btn-position" class="btn btn-warning" data-toggle="modal"
+                <button type="button" id="btn-position" class="btn btn-warning mail-btn" data-toggle="modal"
                     data-target="#staticBackdrop">
                     Join Mailing List!
                 </button>
@@ -134,8 +135,9 @@
                                     <span aria-hidden="true">&times;</span>
                                 </button>
                             </div>
-                            <div class="modal-body">
-                                <p class="model-text"> Join our mailing list to stay up to date with  news and our latest offers.
+                            <div class="modal-body mailing">
+                                <p class="model-text"> Join our mailing list to stay up to date with news and our latest
+                                    offers.
                                 </p><br>
                                 <form>
                                     <input class="inputs" type="text" id="fname" placeholder="First Name"><br><br>
@@ -148,20 +150,25 @@
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                <!----<button type="button" class="btn btn-danger">Understood</button>---->
                             </div>
                         </div>
                     </div>
                 </div>
-                <!----------***/End of Credit Boostrap Modal***------>
+                <!----------*/End of Credit Boostrap Modal*------>
             </div>
-            <div class="col-sm-12 col-lg-4 social-media">
-                <ul>
-                    <li class="social icons"><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
-                    <li class="social icons"><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i> </a> </li>
-                    <li class="social icons"><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
-                    <li class="social icons"><a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a></li>
+            <div class="col-sm-6 col-md-4 social-media">
+                <div>
+                     <ul>
+                    <li class="social icons"><a href="https://www.facebook.com" target="_blank"><i
+                                class="fab fa-facebook-square fa-lg"></i></a></li>
+                    <li class="social icons"><a href="https://www.twitter.com" target="_blank"><i
+                                class="fab fa-twitter fa-lg"></i> </a> </li>
+                    <li class="social icons"><a href="https://www.instagram.com" target="_blank"><i
+                                class="fab fa-instagram fa-lg"></i></a></li>
+                    <li class="social icons"><a href="https://www.youtube.com" target="_blank"><i
+                                class="fab fa-youtube fa-lg"></i></a></li>
                 </ul>
+               </div>
             </div>
         </div>
     </footer>

@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Oleo+Script&display=swap');
 
 /*-------------------Default styles & fonts--------------*/
 
  body {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Alegreya Sans', sans-serif;
     color: #A6ACAF
 }
 
@@ -13,7 +13,8 @@
 	background-color: #000;
 }
 .navbar-custom {
-	color: #dc3545;
+    color: #dc3545;
+    font-family:'Oleo Sans', sans-serif;
 	font-size: 30px;
 	font-weight: 800;
 	text-shadow: 1px 1px #A6ACAF;
@@ -33,9 +34,8 @@
 	overflow: none;
 }
 
-.r1-images {
-    height: 500px;
-	width: 90%;
+.r-images {
+    width: 90%;
 	background-size: cover;
     overflow: none;
     border-radius: 2%;
@@ -102,40 +102,60 @@
 
 /*---------------------------Footer--------------------------*/
 
-footer {
-    position: relative;
-    margin-top: 0;
-}
 
-.footer-style {
+footer {
     background-color: #dc3545;
     text-align: center;
-    color: #f0f0f0;
+    color: #fdfdfd;
     line-height: auto;
+    vertical-align: center;
     padding-top: 15px;
     Padding-bottom: 15px;
-
-}
+   }
 
 .caveat {
-    float: left;
-    margin-left: 20px;
+     margin-left: 20px;
+    margin-top: 10px;
+    text-align: center;
 }
 
-ul li i {
-    display: inline;
-    margin: 0 30px 0 20px;
-    float: right;
-    color: #fff;
- }
+.mail-btn {
+    align-items: center;
+    margin: auto;
+
+}
+
+.social-media {
+    width: 100%;
+    margin: auto;
+  
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
 
 ul li {
      list-style-type: none;
+     display: inline-block;
+    
+     
  }
+
+ul li i {
+    
+    color: #fff;
+    padding: 0 10px 0 10px;
+    text-align: center;
+    
+    
+    
+}
 
  ul li i:hover {
      color: #ffc107;
-
+     
  }
  
 
@@ -143,7 +163,7 @@ ul li {
 
 .mailing {
     color: #000;
-    }
+}
 
 .inputs {
     border-radius: 8px;
@@ -201,11 +221,8 @@ ul li {
 	text-align: justify;
     }
 
-     .caveat {
-    display: none;
-    }
-    
 }
+
 @media screen and (max-width: 992px) {
 	.callout-text {
 		margin-top: 65px;
@@ -221,7 +238,13 @@ ul li {
 		margin-left: auto;
 		margin-right: auto;
     }
-}
+
+    ul li i{
+        margin-top: 15px;
+    }
+
+ 
+ }
     @media screen and (max-width: 281px) {
 	.callout-text {
 		margin-top: 2px;
@@ -237,8 +260,12 @@ ul li {
 		margin-left: auto;
 		margin-right: auto;
     }
-     .caveat {
-    display: none;
+
+    ul li i{
+        margin-top: 15px;
     }
-}
+    
+    }
+   
+
 
