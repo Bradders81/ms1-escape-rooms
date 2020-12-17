@@ -35,12 +35,12 @@
 }
 
 .r-images {
-    width: 90%;
-	background-size: cover;
-    overflow: none;
-    border-radius: 2%;
-    background: center;
-    background-size: 100% 100%;
+    width: 80%;
+	border-radius: 2%;
+    margin: 0 10% 0 10%;
+    
+    
+   
 
 }
 
@@ -72,7 +72,7 @@
 	background-color: #000;
     
 }
-.section-heads {
+.headings {
 	text-transform: uppercase;
     color: #dc3545;
 	font-weight: 500;
@@ -83,12 +83,14 @@
 .about-text {
 	margin: 5px 20% 0 20%;
 	font-size: 19px;
-	border: 2px solid #A6ACAF;
-	margin: 20px 10% 40px 10%;
+    border: 2px solid #A6ACAF ;
+    box-shadow: 1px 1px 4px 4px;
+	margin: 20px 10px 20px 10px;
 	padding: 12px;
-	box-shadow: 1px 1px 4px 4px;
 	line-height: 25px;
-	text-align: left;
+    text-align: justify;
+    border-radius: 2%;
+    
 }
 
 /*----------------------------Customer Comments---------------*/
@@ -100,6 +102,33 @@
 /*--------------------------Rooms Section----------------------*/
 
 
+.room-boxes {
+border: 2px solid #A6ACAF;
+box-shadow: 1px 1px 4px 4px;
+background-color: #000;
+border-radius: 2%;
+}
+
+.room-description {
+    margin: 5px 20% 0 20%;
+	font-size: 19px;
+    margin: 20px 10px 20px 10px;
+	padding: 5px;
+	line-height: 25px;
+    text-align: justify;
+}
+
+.rooms-bg {
+    background: url("../images/rooms-bg.jpg") center center no-repeat;
+	height:100%;
+	width: 100%;
+	background-size: cover;
+	overflow: none;
+}
+.room-section-margin {
+    padding-top: 10px;
+    padding-bottom: 20px;
+   }
 /*---------------------------Footer--------------------------*/
 
 

@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <header>
+    <header class="sticky-top">
         <!----Credit Bootstrap Navbar (styled using CSS)-->
         <nav class="navbar navbar-expand-md navbar-dark bg-custom ">
             <a class="navbar-custom" href="index.html">Puzzle Locked!</a>
@@ -24,7 +24,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav ml-auto">
-                 <a class="nav-link" href="index.html">Home</a>
+                    <a class="nav-link" href="index.html">Home</a>
                     <a class="nav-link active" href="rooms.html">Rooms</a>
                     <a class="nav-link" href="gallery.html">Gallery</a>
                     <a class="nav-link" href="bookingcontact.html">Booking & Contact Us</a>
@@ -34,36 +34,58 @@
         <!-----/ End credit Bootstrap Navbar-->
     </header>
     <!------------Rooms Section---------------->
-    <section class="container-fluid section-color section-heads">
-        <div class="row">
-            <div class="col-md-12 col-lg-6">
-               <img class="r-images" src="assets/images/virtual1.jpg" alt="impage of man plaing virtual reality">
+    <section  class="section-color room-section-margin rooms-bg">
+        <div class="container">
+        <div class="row .bg-custom">
+            <div class="col-md-12 col-lg-6 room-boxes">
+                <h3 class="headings">VR Experience</h3>
+                <img class="r-images" src="assets/images/virtual1.jpg"
+                    alt="Image of man with a VR head set and holding VR remotes">
+                     <p class="room-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun abore et
+                   dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                   laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                   voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                   non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
             </div>
-                <div class="col-md-12 col-lg-6">
-                    <div class="room-2">
-                        <div>image
-                        </div>
-                    </div>
-                </div>
-        </div>
-         <div class="row">
-            <div class="col-md-12 col-lg-6">
-                <div class="room-3">
-                    <div>image
-                    </div>
-                </div>
+            <div class="col-md-12 col-lg-6 room-boxes">
+                <h3 class="headings">Stop the Bomb</h3>
+                <img class="r-images" src="assets/images/controlroom.jpg" alt="Image of underground control room">
+                 <p class="room-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun abore et
+                   dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                   laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                   voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                   non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
             </div>
-                <div class="col-md-12 col-lg-6">
-                    <div class="room-4">
-                        <div>image
-                        </div>
-                    </div>
-                </div>
         </div>
-
+        <div class="row .bg-custom">
+            <div class="col-md-12 col-lg-6 room-boxes .bg-custom">
+                <h3 class="headings">Where are We?</h3>
+                <img class="r-images" src="assets/images/cabinroom.jpg" alt="Image of warm wooden cabin living">
+                 <p class="room-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun abore et
+                   dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                   laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                   voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                   non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+            </div>
+            <div class="col-md-12 col-lg-6 room-boxes">
+                <h3 class="headings">Let me Out!</h3>
+                <img class="r-images" src="assets/images/bunker.jpg"
+                    alt="Image of old underground room wtih 50's furinture">
+                     <p class="room-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun abore et
+                   dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                   laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                   voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                   non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+            </div>
+        </div>
+        </div>
     </section>
     <!-----------Footer Section--------------->
-  <footer class="container-fluid">
+    <footer class="container-fluid">
         <div class="row">
             <div class=" d-none d-lg-block col-4 ">
                 <p class="caveat"><i class="far fa-copyright"></i>
@@ -112,17 +134,17 @@
             </div>
             <div class="col-sm-6 col-md-4 social-media">
                 <div>
-                     <ul>
-                    <li class="social icons"><a href="https://www.facebook.com" target="_blank"><i
-                                class="fab fa-facebook-square fa-lg"></i></a></li>
-                    <li class="social icons"><a href="https://www.twitter.com" target="_blank"><i
-                                class="fab fa-twitter fa-lg"></i> </a> </li>
-                    <li class="social icons"><a href="https://www.instagram.com" target="_blank"><i
-                                class="fab fa-instagram fa-lg"></i></a></li>
-                    <li class="social icons"><a href="https://www.youtube.com" target="_blank"><i
-                                class="fab fa-youtube fa-lg"></i></a></li>
-                </ul>
-               </div>
+                    <ul>
+                        <li class="social icons"><a href="https://www.facebook.com" target="_blank"><i
+                                    class="fab fa-facebook-square fa-lg"></i></a></li>
+                        <li class="social icons"><a href="https://www.twitter.com" target="_blank"><i
+                                    class="fab fa-twitter fa-lg"></i> </a> </li>
+                        <li class="social icons"><a href="https://www.instagram.com" target="_blank"><i
+                                    class="fab fa-instagram fa-lg"></i></a></li>
+                        <li class="social icons"><a href="https://www.youtube.com" target="_blank"><i
+                                    class="fab fa-youtube fa-lg"></i></a></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </footer>
