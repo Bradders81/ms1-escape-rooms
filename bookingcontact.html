@@ -26,15 +26,50 @@
                 <div class="navbar-nav ml-auto">
                     <a class="nav-link active" href="#">Home</a>
                     <a class="nav-link" href="rooms.html">Rooms</a>
-                    <a class="nav-link" href="#">Gallery</a>
                     <a class="nav-link" href="#">Booking & Contact Us</a>
                 </div>
             </div>
         </nav>
         <!-----/ End credit Bootstrap Navbar-->
     </header>
+    <section class="booking-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col ">
+                    <form class="booking-form ">
+                        <label for="fname">First Name</label>
+                        <input type="text" id="f-name" placeholder="first name" name="fname" required>
+                        <label for="lname">Surname</label>
+                        <input type="text" id="l-name" placeholder="first name" name="lname" required>
+                        <label for="dob"> Date of Birth</label>
+                        <input type="date" id="dob" placeholder="D.O.B" name="dob" required>
+                        <label for="e-mail">Email</label>
+                        <input type="email" id="e-mail" name="email" required>
+                        <label for="tel">Telephone Number</label>
+                        <input type="tel" id="tel" name="tel" placeholder="mobile or landline">
+                        <label for="psize">No. People</label>
+                        <input type="number" id="psize" name="psize" required>
+                        <label for="room">Pick Your Room</label>
+                        <select name="room" id="room" required>
+                            <option value="vr">VR Experience</option>
+                            <option value="stopthebomb">Stop The Bomb!</option>
+                            <option value="wherearewe">Where Are We?</option>
+                            <option value="letmeout">Let Me Out!</option>
+                        </select>
+                        <label for="attend">Date</label>
+                        <input type="week" id="attend" required>
+                        <label for="time">Time</label>
+                        <input type="time" id="time" required>
+                        <input type="submit" value="Book">
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
     <!-----------Footer Section--------------->
-  <footer class="container-fluid">
+    <footer class="container-fluid">
         <div class="row">
             <div class=" d-none d-lg-block col-4 ">
                 <p class="caveat"><i class="far fa-copyright"></i>
@@ -65,9 +100,11 @@
                                     offers.
                                 </p><br>
                                 <form>
-                                    <input class="inputs" type="text" id="fname" placeholder="First Name"><br><br>
-                                    <input class="inputs" type="text" id="lname" placeholder="Surname"><br><br>
-                                    <input class="inputs" type="email" id="email" placeholder="Email Address"><br><br>
+                                    <input class="inputs" type="text" id="fname" placeholder="First Name"
+                                        required><br><br>
+                                    <input class="inputs" type="text" id="lname" placeholder="Surname" required><br><br>
+                                    <input class="inputs" type="email" id="email" placeholder="Email Address"
+                                        required><br><br>
                                     <input class="submit-btn-style" type="submit" value="Join">
                                 </form>
                                 <br>
@@ -83,17 +120,17 @@
             </div>
             <div class="col-sm-6 col-md-4 social-media">
                 <div>
-                     <ul>
-                    <li class="social icons"><a href="https://www.facebook.com" target="_blank"><i
-                                class="fab fa-facebook-square fa-lg"></i></a></li>
-                    <li class="social icons"><a href="https://www.twitter.com" target="_blank"><i
-                                class="fab fa-twitter fa-lg"></i> </a> </li>
-                    <li class="social icons"><a href="https://www.instagram.com" target="_blank"><i
-                                class="fab fa-instagram fa-lg"></i></a></li>
-                    <li class="social icons"><a href="https://www.youtube.com" target="_blank"><i
-                                class="fab fa-youtube fa-lg"></i></a></li>
-                </ul>
-               </div>
+                    <ul>
+                        <li class="social icons"><a href="https://www.facebook.com" target="_blank"><i
+                                    class="fab fa-facebook-square fa-lg"></i></a></li>
+                        <li class="social icons"><a href="https://www.twitter.com" target="_blank"><i
+                                    class="fab fa-twitter fa-lg"></i> </a> </li>
+                        <li class="social icons"><a href="https://www.instagram.com" target="_blank"><i
+                                    class="fab fa-instagram fa-lg"></i></a></li>
+                        <li class="social icons"><a href="https://www.youtube.com" target="_blank"><i
+                                    class="fab fa-youtube fa-lg"></i></a></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </footer>
