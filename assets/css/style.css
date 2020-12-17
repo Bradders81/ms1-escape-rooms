@@ -38,11 +38,16 @@
     width: 80%;
 	border-radius: 2%;
     margin: 0 10% 0 10%;
+}
+
+.booking-bg {
+    background: url("../images/");
+
+}
     
     
    
 
-}
 
 
 
@@ -95,8 +100,17 @@
 
 /*----------------------------Customer Comments---------------*/
 
+.review-img {
+   border-radius: 5% 5%;
+}
 
-
+.review-text {
+    display: inline;
+    font-size: 19px;
+    margin: 20px;
+    text-align: center;
+    float: left;
+}
 
 
 /*--------------------------Rooms Section----------------------*/
@@ -123,10 +137,11 @@ border-radius: 2%;
 	height:100%;
 	width: 100%;
 	background-size: cover;
-	overflow: none;
+    overflow: none;
 }
+
 .room-section-margin {
-    padding-top: 10px;
+    padding-top: 20px;
     padding-bottom: 20px;
    }
 /*---------------------------Footer--------------------------*/
