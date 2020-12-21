@@ -32,7 +32,7 @@
 	text-shadow: 2px 2px #000;
 	text-decoration: none;
 }
-/*-------------------------- Background Images------------------*/
+/*-------------------------- Background: Images & Colors------------------*/
 
 .hero-image-bg {
      background: url("../images/heroimage.jpg") no-repeat center center;
@@ -45,7 +45,20 @@
     background: url("../images/booking-bg.jpg") center center no-repeat;
     height: 100vh;
     width: 100%;
-   
+   }
+
+   .rooms-bg {
+    background: url("../images/rooms-bg.jpg") fixed center no-repeat;
+	height:100%;
+	width: 100%;
+	background-size: cover;
+    
+    
+   }
+
+   .section-color {
+	background-color: #000;
+    
 }
     
 /*--------------------------Callout/call to action--------------*/
@@ -83,10 +96,7 @@
 
 /*---------------------About Section..........*/
 
-.section-color {
-	background-color: #000;
-    
-}
+
 
 .headings {
 	text-transform: uppercase;
@@ -154,10 +164,30 @@
 
 
 
+/*-----------------Price List-----------------*/
 
+.table {
+    color: #A6ACAF;
+    font-size: 19px;
+   	padding: 5px;
+	line-height: 25px;
+    text-align: justify;
 
+}
 
-/*--------------------------Rooms Section----------------------*/
+    .table-border {
+    border: 2px solid #A6ACAF;
+    box-shadow: 1px 1px 4px 4px;
+    background-color: #000;
+    border-radius: 2%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+   
+
+}
+
+/*-----------------Rooms-----------------*/
+
 .room-images {
     width: 80%;
 	border-radius: 2%;
@@ -181,13 +211,7 @@ border-radius: 2%;
     text-align: justify;
 }
 
-.rooms-bg {
-    background: url("../images/rooms-bg.jpg") center center no-repeat;
-	height:100%;
-	width: 100%;
-	background-size: cover;
-    overflow: none;
-}
+
 
 .room-section-margin {
     padding-top: 20px;
