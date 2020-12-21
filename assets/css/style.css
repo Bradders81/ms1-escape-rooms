@@ -45,10 +45,7 @@
     background: url("../images/booking-bg.jpg") center center no-repeat;
     height: 100vh;
     width: 100%;
-    
    
-    
-
 }
     
 /*--------------------------Callout/call to action--------------*/
@@ -60,8 +57,7 @@
     font-weight: 550;
     text-align: center;  
     margin-top: 10%;
-   
-           
+              
             
 } 
 
@@ -102,16 +98,24 @@
 }
 
 .about-text {
-	margin: 5px 20% 0 20%;
 	font-size: 19px;
     border: 2px solid #A6ACAF ;
     box-shadow: 1px 1px 4px 4px;
-	margin: 20px 10px 20px 10px;
-	padding: 12px;
+	margin: 20px 120px 50px 120px;
+	padding: 20px;
 	line-height: 25px;
     text-align: justify;
     border-radius: 2%;
-    
+    }
+
+    .rooms-link {
+    color: #dc3545;
+    font-size: 20px;
+}
+
+.rooms-link:hover{
+    color: #EC019C;
+    text-decoration: none;
 }
 
 /*----------------------------Customer Comments---------------*/
@@ -139,6 +143,7 @@
         width: 80%;
         margin-left: 10%;
         margin-right: 10%;
+       
             
 } 
 
@@ -189,6 +194,9 @@ border-radius: 2%;
     padding-bottom: 20px;
    }
 
+
+
+
 /*---------------------------Booking--------------------------*/
 .booking-form{
         
@@ -208,7 +216,7 @@ footer {
    }
 
 .caveat {
-     margin-left: 20px;
+    margin-left: 20px;
     margin-top: 10px;
     text-align: center;
 }
@@ -282,11 +290,14 @@ ul li i {
 
 /*----------------------------@media Queries---------------*/
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 575px) {
 
       .about-text {
           border: none;
           box-shadow: none;
+          padding: 0;
+          margin-left: 10px;
+          margin-right: 10px;
         }
 
 .review-img {
@@ -300,10 +311,18 @@ ul li i {
    #comment-margin {
        margin-bottom: 50px;
    }
-
- 
-
+ul li i {
+    margin-top: 15px;
 }
+ 
+}
+
+@media screen and (max-width: 1024px) {
+    .about-text {
+margin: 20px 20px 50px 20px;
+}
+}
+    
 
    
 
