@@ -2,16 +2,21 @@
 
 /*-------------------Default styles & fonts--------------*/
 
- body {
-	font-family: 'Merriweather Sans', sans-serif;
-    color: #A6ACAF
-}
-
 * {
     margin: 0;
     padding: 0;
     border: 0;
+}  
+
+ body {
+	font-family: 'Merriweather Sans', sans-serif;
+    color: #A6ACAF;
+    letter-spacing: 1px;
+    font-size: 16px;
 }
+
+
+
 
 /*------------------Navbar style--------------*/
 
@@ -21,11 +26,10 @@
 .navbar-custom {
     color: #dc3545;
     font-family: 'Luckiest Guy', cursive;
-    letter-spacing: 6px;;
+    letter-spacing: 6px;
 	font-size: 30px;
     font-weight: 400;
-  
-	text-shadow: 1px 1px #A6ACAF;
+  	text-shadow: 1px 1px #A6ACAF;
 }
 .navbar-custom:hover {
 	color: #A6ACAF;
@@ -70,6 +74,7 @@
     font-weight: 550;
     text-align: center;  
     margin-top: 10%;
+    letter-spacing: normal;
               
             
 } 
@@ -104,12 +109,12 @@
 	font-weight: 500;
 	font-size: 30px;
 	text-align: center;
-	padding-top: 20px;
+    padding-top: 20px;
+    letter-spacing: normal;
 }
 
 .about-text {
-	font-size: 19px;
-    border: 2px solid #A6ACAF ;
+	border: 2px solid #A6ACAF ;
     box-shadow: 1px 1px 4px 4px;
 	margin: 20px 120px 50px 120px;
 	padding: 20px;
@@ -149,6 +154,7 @@
 
 .review-text {
         font-size: 19px;  
+        letter-spacing: normal;
         line-height: 25px;  
         width: 80%;
         margin-left: 10%;
@@ -168,8 +174,7 @@
 
 .table {
     color: #A6ACAF;
-    font-size: 19px;
-   	padding: 5px;
+    padding: 5px;
 	line-height: 25px;
     text-align: justify;
 
@@ -204,7 +209,6 @@ border-radius: 2%;
 
 .room-description {
     margin: 5px 20% 0 20%;
-	font-size: 19px;
     margin: 20px 10px 20px 10px;
 	padding: 5px;
 	line-height: 25px;
@@ -218,7 +222,16 @@ border-radius: 2%;
     padding-bottom: 20px;
    }
 
+.nav-active {
+    color: #dc3545;
+     font-weight: bold;
+     padding: 5px;
+     border-radius: 10px;
+     box-shadow: 1px 1px 4px 4px;
+    
 
+   
+}
 
 
 /*---------------------------Booking--------------------------*/
@@ -311,6 +324,12 @@ ul li i {
     color: #000;
 }
 
+.page-heading {
+    align-items: center;
+    margin-bottom: 0;
+    display: inline-block;
+    margin-left: 50px;
+}
 
 /*----------------------------@media Queries---------------*/
 
@@ -338,7 +357,16 @@ ul li i {
 ul li i {
     margin-top: 15px;
 }
- 
+    .room-boxes,
+    .table-border {
+     border: none;
+     box-shadow: none;
+ }
+
+ .rooms-bg {
+    background: none;
+    background-color: #000;
+ }
 }
 
 @media screen and (max-width: 1024px) {
