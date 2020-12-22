@@ -55,6 +55,14 @@
 	text-shadow: 2px 2px #000;
 	text-decoration: none;
 }
+
+.nav-active {
+    color: #dc3545;
+     font-weight: bold;
+     padding: 5px;
+     border-radius: 10px;
+     box-shadow: 1px 1px 4px 4px;
+}
 /*-------------------------- Background: Images & Colors------------------*/
 
 .hero-image-bg {
@@ -222,33 +230,54 @@ border: 2px solid #A6ACAF;
 box-shadow: 1px 1px 4px 4px;
 background-color: #000;
 border-radius: 2%;
+position: relative;
+height: auto;
 }
 
 .room-description {
-    margin: 5px 20% 0 20%;
-    margin: 20px 10px 20px 10px;
+    
+    margin: 20px 10px 70px 10px;
 	padding: 5px;
 	line-height: 25px;
     text-align: justify;
+    
 }
-
-
 
 .room-section-margin {
     padding-top: 20px;
     padding-bottom: 20px;
    }
 
-.nav-active {
-    color: #dc3545;
-     font-weight: bold;
-     padding: 5px;
-     border-radius: 10px;
-     box-shadow: 1px 1px 4px 4px;
-    
 
-   
+
+.btn-bottom {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
 }
+ 
+
+.booking-btn {
+align-items: center;
+
+text-align: center;
+ padding: 15px;
+ 
+ 
+  border-radius: 5px;
+  background-color: #dc3545;
+color:#fdfdfd;
+text-decoration: none;
+position: relative;
+
+}
+
+.booking-btn:hover {
+    color: #dc3545;
+    background-color:#fdfdfd;
+}
+
 
 
 /*---------------------------Booking--------------------------*/
