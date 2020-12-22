@@ -28,7 +28,6 @@
 .page-heading {
     text-align: center;
     margin: 20px auto 0 auto;
-   
     width: 80%;
     background: #000;
     text-transform: uppercase;
@@ -72,21 +71,20 @@
      height: 70vh;    
      }
 
-.booking-bg {
-    background: url("../images/booking-bg.jpg") center center no-repeat;
-    height: 100vh;
+#booking-bg {
+    background: url("../images/booking-bg.jpg") fixed center no-repeat;
     width: 100%;
+    height: auto;
+    background-size: cover;
    }
 
-   .rooms-bg {
+   #rooms-bg {
     background: url("../images/rooms-bg.jpg") fixed center no-repeat;
-	height:100%;
-	width: 100%;
-	background-size: cover;
-    
-    
+    width: 100%;
+   background-size: cover;
+	
+      
    }
-
    .section-color {
 	background-color: #000;
     
@@ -184,7 +182,59 @@
     float: right;
 }
 
+/*-----------------Rooms-----------------*/
 
+.room-images {
+    width: 80%;
+	border-radius: 2%;
+    margin: 0 10% 0 10%;
+    }
+
+.room-boxes {
+border: 2px solid #A6ACAF;
+box-shadow: 1px 1px 4px 4px;
+background-color: #000;
+border-radius: 2%;
+position: relative;
+height: auto;
+}
+
+.room-description {
+    
+    margin: 20px 10px 70px 10px;
+	padding: 5px;
+	line-height: 25px;
+    text-align: justify;
+    }
+
+.room-section-margin {
+    padding-top: 20px;
+    padding-bottom: 20px;
+   }
+
+
+
+.btn-bottom {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+}
+ 
+
+.booking-btn {
+padding: 15px;
+border-radius: 5px;
+background-color: #dc3545;
+color:#fdfdfd;
+text-decoration: none;
+position: relative;
+}
+
+.booking-btn:hover {
+    color: #dc3545;
+    background-color:#fdfdfd;
+}
 
 /*-----------------Price List-----------------*/
 .pl-headder {
@@ -216,75 +266,30 @@
 
 }
 
-/*-----------------Rooms-----------------*/
 
-.room-images {
-    width: 80%;
-	border-radius: 2%;
-    margin: 0 10% 0 10%;
+/*---------------------------Booking & contact --------------------------*/
+.center-form {
+    width: 65%;
+    margin: 0 auto;
+}
     
+#email-link {
+    color: #A6ACAF;
 }
 
-.room-boxes {
-border: 2px solid #A6ACAF;
-box-shadow: 1px 1px 4px 4px;
-background-color: #000;
-border-radius: 2%;
-position: relative;
-height: auto;
+#email-link:hover {
+    color:#dc3545;
+    text-decoration: none;
 }
 
-.room-description {
-    
-    margin: 20px 10px 70px 10px;
-	padding: 5px;
-	line-height: 25px;
-    text-align: justify;
-    
+.margin-top {
+    margin-top: 70px;
 }
 
-.room-section-margin {
-    padding-top: 20px;
-    padding-bottom: 20px;
-   }
-
-
-
-.btn-bottom {
-    position: absolute;
-    bottom: 10px;
-    left: 0;
-    right: 0;
-}
- 
-
-.booking-btn {
-align-items: center;
-
-text-align: center;
- padding: 15px;
- 
- 
-  border-radius: 5px;
-  background-color: #dc3545;
-color:#fdfdfd;
-text-decoration: none;
-position: relative;
-
+.margin-bottom {
+    margin-bottom: 10px;
 }
 
-.booking-btn:hover {
-    color: #dc3545;
-    background-color:#fdfdfd;
-}
-
-
-
-/*---------------------------Booking--------------------------*/
-.booking-form{
-        
-        display: inline-block;
-}
 /*---------------------------Footer--------------------------*/
 
 
@@ -402,9 +407,10 @@ ul li i {
     .table-border {
      border: none;
      box-shadow: none;
+     margin-top: 30px;
  }
 
- .rooms-bg {
+ #rooms-bg {
     background: none;
     background-color: #000;
  }

@@ -5,16 +5,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <meta name="Description" content="Enter your description here" />
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
-    <title>Puzzle Locked</title>
+    <title>Puzzle Locked | Booking</title>
 </head>
 
 <body>
-    <header>
+    <header class="sticky-top">
         <!----Credit Bootstrap Navbar (styled using CSS)-->
         <nav class="navbar navbar-expand-md navbar-dark bg-custom ">
             <a class="navbar-custom" href="index.html">Puzzle Locked!</a>
@@ -24,48 +23,105 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav ml-auto">
-                    <a class="nav-link active" href="#">Home</a>
+                    <a class="nav-link " href="index.html">Home</a>
                     <a class="nav-link" href="rooms.html">Rooms</a>
-                    <a class="nav-link" href="#">Booking & Contact Us</a>
+                    <a class="nav-link" href="#"><span class="nav-active"> Booking & Contact Us</span></a>
                 </div>
             </div>
         </nav>
         <!-----/ End credit Bootstrap Navbar-->
     </header>
-    <section class="booking-bg">
+    <section id="booking-bg">
         <div class="container">
             <div class="row">
-                <div class="col ">
-                    <form class="booking-form ">
-                        <label for="fname">First Name</label>
-                        <input type="text" id="f-name" placeholder="first name" name="fname" required>
-                        <label for="lname">Surname</label>
-                        <input type="text" id="l-name" placeholder="first name" name="lname" required>
-                        <label for="dob"> Date of Birth</label>
-                        <input type="date" id="dob" placeholder="D.O.B" name="dob" required>
-                        <label for="e-mail">Email</label>
-                        <input type="email" id="e-mail" name="email" required>
-                        <label for="tel">Telephone Number</label>
-                        <input type="tel" id="tel" name="tel" placeholder="mobile or landline">
-                        <label for="psize">No. People</label>
-                        <input type="number" id="psize" name="psize" required>
-                        <label for="room">Pick Your Room</label>
-                        <select name="room" id="room" required>
-                            <option value="vr">VR Experience</option>
-                            <option value="stopthebomb">Stop The Bomb!</option>
-                            <option value="wherearewe">Where Are We?</option>
-                            <option value="letmeout">Let Me Out!</option>
-                        </select>
-                        <label for="attend">Date</label>
-                        <input type="week" id="attend" required>
-                        <label for="time">Time</label>
-                        <input type="time" id="time" required>
-                        <input type="submit" value="Book">
-                    </form>
+                <div class=" col-sm-12 col-md-8">
+                    <div class="table-border bg-custom">
+                        <h2 class="headings text-center">Booking Form</h2>
+
+
+                        <form class="center-form">
+                            <label for="fname">First Name</label>
+                            <input type="text" id="f-name" class="form-control margin-bottom" placeholder="First name" name="fname"
+                                required>
+                            <label for="lname">Surname</label>
+                            <input type="text" id="l-name" class="form-control margin-bottom" placeholder="Surname" name="lname"
+                                required>
+                            <label for="e-mail">Email</label>
+                            <input type="email" id="e-mail" class="form-control margin-bottom" name="email" required>
+                            <label for="tel">Telephone Number</label>
+                            <input type="tel" id="tel" name="tel" class="form-control margin-bottom" placeholder="mobile or landline">
+                            <label for="psize">No. People</label>
+                            <input type="number" min="2" max="6" id="psize" class="form-control margin-bottom" name="psize" required>
+                            <label for="room">Pick Your Room</label>
+                            <select name="room" id="room" class="form-control margin-bottom" required>
+                                 <option value="clear"></option>
+                                <option value="vr">VR Experience</option>
+                                <option value="stopthebomb">Stop The Bomb!</option>
+                                <option value="wherearewe">Where Are We?</option>
+                                <option value="letmeout">Let Me Out!</option>
+                            </select>
+                            <label for="attend">Date</label>
+                            <input type="date" id="attend" class="form-control margin-bottom" required>
+                            <label for="time" min="11:00" max="20:00">Time</label>
+                            <select name="time" id="time" class="form-control margin-bottom" required>
+                                <option value="clear"></option>
+                                <option value="11:00">11:00</option>
+                                <option value="12:30">12:30</option>
+                                <option value="14:00">14:00</option>
+                                <option value="15:30">15:30</option>
+                                <option value="17:00">17:00</option>
+                                <option value="18:30">18:30</option>
+                                <option value="20:00">18:00</option>
+                                </select>
+                                <div class="margin-bottom text-center">
+                            <input type="submit" class="booking-btn" value="Book">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="table-border bg-custom col-sm-12 col-md-4">
+                    <div>
+                        <h5 class="pl-headder text-center">Price List</h5>
+                        <table class="table text-center">
+                            <th>Number of People</th>
+                            <th>Price Per Person</th>
+                            <tr>
+                                <th>2</th>
+                                <th>£26</th>
+                            </tr>
+                            <tr>
+                                <th>3</th>
+                                <th>£24</th>
+                            </tr>
+                            <tr>
+                                <th>4</th>
+                                <th>£22</th>
+                            </tr>
+                            <tr>
+                                <th>5</th>
+                                <th>£20</th>
+                            </tr>
+                            <tr>
+                                <th>6</th>
+                                <th>£18</th>
+                            </tr>
+
+                        </table>
+                        <p class="text-center"><small> Under 16’s must be accompanied by an adult</small></p>
+                    </div>
+                    <div class= "text-center">
+                        <h5 class="pl-headder margin-top">Contact Us</h5>
+                        <p>Email: <br> <a id="email-link" href="mailto:customerservice@puzzellocked.co.uk">customerservice@puzzellocked.co.uk</a></p>
+                        <p>Telephone: <br> 0113 123 456</p>
+                        <p>Address:<br> 78 Jenkins Lane, Leeds, LS1 2AA</p>
+
+                    </div>
                 </div>
             </div>
-
         </div>
+
+
+
     </section>
 
     <!-----------Footer Section--------------->
