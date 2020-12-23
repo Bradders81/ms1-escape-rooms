@@ -31,6 +31,7 @@
     width: 80%;
     background: #000;
     text-transform: uppercase;
+    height: auto;
     
 }
     
@@ -236,15 +237,30 @@ position: relative;
     background-color:#fdfdfd;
 }
 
+/*----------Gallery--------*/
+
+#gallery {
+    column-count: 3;
+    column-gap: 10px;
+  }
+
+.gallery-pics{
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px 5px;
+    margin:5px;
+    
+}
+
 /*-----------------Price List-----------------*/
 .pl-headder {
     text-transform: uppercase;
     color: #dc3545;
-	font-weight: 500;
-	letter-spacing: normal;
+    font-weight: 500;
+    letter-spacing: normal;
     background: #000;
     margin: 15px auto 0 auto;
-    max-width:80%;
+    
     
 }
 
@@ -407,11 +423,20 @@ ul li i {
      margin-top: 30px;
  }
 
+#gallery {
+    column-count: 1;
+}
+
     #booking-bg,
     #rooms-bg {
     background: none;
     background-color: #000;
  }
+.page-heading {
+    border: none;
+    box-shadow: none;
+    background-color: none;
+}
 }
 
 @media screen and (max-width: 1024px) {
@@ -419,6 +444,8 @@ ul li i {
 margin: 20px 20px 50px 20px;
 }
 }
+
+
     
 
    
