@@ -242,14 +242,15 @@ position: relative;
 #gallery {
     column-count: 3;
     column-gap: 10px;
-  }
+    display: inline-block;
+    }
 
 .gallery-pics{
     max-width: 100%;
     height: auto;
     border-radius: 5px 5px;
-    margin:5px;
-    
+    margin-top: 10px;
+      
 }
 
 /*-----------------Price List-----------------*/
