@@ -243,6 +243,7 @@ position: relative;
     column-count: 3;
     column-gap: 10px;
     display: inline-block;
+    margin-bottom: 20px;
     }
 
 .gallery-pics{
@@ -251,6 +252,12 @@ position: relative;
     border-radius: 5px 5px;
     margin-top: 10px;
       
+}
+.gallery-room-btn {
+    margin: 0 auto;
+    min-width: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 /*-----------------Price List-----------------*/
