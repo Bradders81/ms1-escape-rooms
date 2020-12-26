@@ -1,205 +1,195 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" />
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <title>Puzzle Locked | Booking</title>
-</head>
-
-<body>
-    <header class="sticky-top">
-        <!----Credit Bootstrap Navbar (styled using CSS)-->
-        <nav class="navbar navbar-expand-md navbar-dark bg-custom ">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+      <link rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" />
+      <link rel="stylesheet" href="assets/css/style.css" />
+      <title>Puzzle Locked | Booking</title>
+   </head>
+   <body>
+      <header class="sticky-top">
+         <!----Credit Bootstrap Navbar (styled using CSS)-->
+         <nav class="navbar navbar-expand-md navbar-dark bg-custom ">
             <a class="navbar-custom" href="index.html">Puzzle Locked!</a>
             <button class="navbar-toggler test" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+               aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav ml-auto">
-                    <a class="nav-link " href="index.html">Home</a>
-                    <a class="nav-link" href="rooms.html">Rooms</a>
-                    <a class="nav-link"  href="gallery.html">Gallery</a>
-                    <a class="nav-link" href="#"><span class="nav-active"> Booking & Contact</span></a>
-                </div>
+               <div class="navbar-nav ml-auto">
+                  <a class="nav-link " href="index.html">Home</a>
+                  <a class="nav-link" href="rooms.html">Rooms</a>
+                  <a class="nav-link"  href="gallery.html">Gallery</a>
+                  <a class="nav-link" href="#"><span class="nav-active"> Booking & Contact</span></a>
+               </div>
             </div>
-        </nav>
-        <!-----/ End credit Bootstrap Navbar-->
-    </header>
-    <section id="booking-bg">
-        <div class="container">
+         </nav>
+         <!-----/ End credit Bootstrap Navbar-->
+      </header>
+      <section id="booking-bg">
+         <div class="container">
             <div class="row">
-                <div class=" col-sm-12 col-md-8">
-                    <div class="table-border bg-custom">
-                        <h2 class="headings text-center">Booking Form</h2>
-
-                        <form class="center-form">
-                            <label for="fname">First Name:</label>
-                            <input type="text" id="f-name" class="form-control margin-bottom" placeholder="first name"
-                                name="fname" required>
-                            <label for="lname">Surname:</label>
-                            <input type="text" id="l-name" class="form-control margin-bottom" placeholder="surname"
-                                name="lname" required>
-                            <label for="e-mail">Email:</label>
-                            <input type="email" id="e-mail" class="form-control margin-bottom" name="email"
-                                placeholder="email address" required>
-                            <label for="mlist">Join Mailing List? Tick:</label>
-                            <input type="checkbox" id="mlist" name="mlist" class=" tick-color margin-bottom"><br>
-                            <label for="tel">Telephone Number</label>
-                            <input type="tel" id="tel" name="tel" class="form-control margin-bottom"
-                                placeholder="mobile or landline">
-                            <label for="psize">No. People:</label>
-                            <input type="number" min="2" max="6" id="psize" class="form-control margin-bottom"
-                                name="psize" required>
-                            <label for="room">Pick Your Room:</label>
-                            <select name="room" id="room" class="form-control margin-bottom" required>
-                                <option value="clear"></option>
-                                <option value="vr">VR Experience</option>
-                                <option value="stopthebomb">Stop The Bomb!</option>
-                                <option value="wherearewe">Where Are We?</option>
-                                <option value="letmeout">Let Me Out!</option>
-                            </select>
-                            <label for="attend">Date:</label>
-                            <input type="date" id="attend" class="form-control margin-bottom" required>
-                            <label for="time" min="11:00" max="20:00">Time:</label>
-                            <select name="time" id="time" class="form-control margin-bottom" required>
-                                <option value="clear"></option>
-                                <option value="11:00">11:00</option>
-                                <option value="12:30">12:30</option>
-                                <option value="14:00">14:00</option>
-                                <option value="15:30">15:30</option>
-                                <option value="17:00">17:00</option>
-                                <option value="18:30">18:30</option>
-                                <option value="20:00">18:00</option>
-                            </select>
-                            <div class="margin-bottom text-center">
-                                <input type="submit" class="booking-btn" value="Book">
-                            </div>
-                        </form>
-                    </div>
-                </div>
-                <div class="table-border bg-custom col-sm-12 col-md-4">
-                    <div>
-                        <h5 class="pl-header text-center">Price List</h5>
-                        <table class="table text-center">
-                            <th>Number of People</th>
-                            <th>Price Per Person</th>
-                            <tr>
-                                <th>2</th>
-                                <th>£26</th>
-                            </tr>
-                            <tr>
-                                <th>3</th>
-                                <th>£24</th>
-                            </tr>
-                            <tr>
-                                <th>4</th>
-                                <th>£22</th>
-                            </tr>
-                            <tr>
-                                <th>5</th>
-                                <th>£20</th>
-                            </tr>
-                            <tr>
-                                <th>6</th>
-                                <th>£18</th>
-                            </tr>
-
-                        </table>
-                        <p class="text-center"><small> Under 16’s must be accompanied by an adult</small></p>
-                    </div>
-                    <div class="text-center">
-                        <h5 class="pl-headder margin-top margin-bottom">Contact Us</h5>
-                        <p><i class="fas fa-envelope-square fa-lg"></i><br> <a id="email-link"
-                                href="mailto:customerservice@puzzellocked.co.uk">customerservice@puzzellocked.co.uk</a>
-                        </p>
-                        <p><i class="fas fa-phone-square fa-lg"></i> <br> 0113 123 456</p>
-                        <p><i class="fas fa-building fa-lg"></i><br> 78 Jenkins Lane, Leeds, LS1 2AA</p>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-
-    </section>
-
-    <!-----------Footer Section--------------->
-    <footer class="container-fluid">
-        <div class="row">
-            <div class=" d-none d-lg-block col-4 ">
-                <p class="caveat"><i class="far fa-copyright"></i>
-                    This site is for education purposes.
-                </p>
-            </div>
-
-            <div class="col-sm-6 col-lg-4">
-                <!----------Credit: Bootstrap Modal (which has a form added and styled using CSS)-------->
-                <!-- Button trigger modal -->
-                <button type="button" id="btn-position" class="btn btn-warning mail-btn" data-toggle="modal"
-                    data-target="#staticBackdrop">
-                    Join Mailing List!
-                </button>
-                <!-- Modal -->
-                <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1"
-                    aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="staticBackdropLabel">Mailing List</h5>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
-                            </div>
-                            <div class="modal-body mailing">
-                                <p class="model-text"> Join our mailing list to stay up to date with news and our latest
-                                    offers.
-                                </p><br>
-                                <form>
-                                    <input class="inputs" type="text" id="fname" placeholder="First Name"
-                                        required><br><br>
-                                    <input class="inputs" type="text" id="lname" placeholder="Surname" required><br><br>
-                                    <input class="inputs" type="email" id="email" placeholder="Email Address"
-                                        required><br><br>
-                                    <input class="submit-btn-style" type="submit" value="Join">
-                                </form>
-                                <br>
-                                <p><small>We wil never share your details within anyone else.</small></p>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            </div>
+               <div class=" col-sm-12 col-md-8">
+                  <div class="table-border bg-custom">
+                     <h2 class="headings text-center">Booking Form</h2>
+                     <form class="center-form">
+                        <label for="fname">First Name:</label>
+                        <input type="text" id="f-name" class="form-control margin-bottom" placeholder="first name"
+                           name="fname" required>
+                        <label for="lname">Surname:</label>
+                        <input type="text" id="l-name" class="form-control margin-bottom" placeholder="surname"
+                           name="lname" required>
+                        <label for="e-mail">Email:</label>
+                        <input type="email" id="e-mail" class="form-control margin-bottom" name="email"
+                           placeholder="email address" required>
+                        <label for="mlist">Join Mailing List? Tick:</label>
+                        <input type="checkbox" id="mlist" name="mlist" class=" tick-color margin-bottom"><br>
+                        <label for="tel">Telephone Number</label>
+                        <input type="tel" id="tel" name="tel" class="form-control margin-bottom"
+                           placeholder="mobile or landline">
+                        <label for="psize">No. People:</label>
+                        <input type="number" min="2" max="6" id="psize" class="form-control margin-bottom"
+                           name="psize" required>
+                        <label for="room">Pick Your Room:</label>
+                        <select name="room" id="room" class="form-control margin-bottom" required>
+                           <option value="clear"></option>
+                           <option value="vr">VR Experience</option>
+                           <option value="stopthebomb">Stop The Bomb!</option>
+                           <option value="wherearewe">Where Are We?</option>
+                           <option value="letmeout">Let Me Out!</option>
+                        </select>
+                        <label for="attend">Date:</label>
+                        <input type="date" id="attend" class="form-control margin-bottom" required>
+                        <label for="time" min="11:00" max="20:00">Time:</label>
+                        <select name="time" id="time" class="form-control margin-bottom" required>
+                           <option value="clear"></option>
+                           <option value="11:00">11:00</option>
+                           <option value="12:30">12:30</option>
+                           <option value="14:00">14:00</option>
+                           <option value="15:30">15:30</option>
+                           <option value="17:00">17:00</option>
+                           <option value="18:30">18:30</option>
+                           <option value="20:00">18:00</option>
+                        </select>
+                        <div class="margin-bottom text-center">
+                           <input type="submit" class="booking-btn" value="Book">
                         </div>
-                    </div>
-                </div>
-                <!----------*/End of Credit Bootstrap Modal*------>
+                     </form>
+                  </div>
+               </div>
+               <div class="table-border bg-custom col-sm-12 col-md-4">
+                  <div>
+                     <h5 class="pl-header text-center">Price List</h5>
+                     <table class="table text-center">
+                        <th>Number of People</th>
+                        <th>Price Per Person</th>
+                        <tr>
+                           <th>2</th>
+                           <th>£26</th>
+                        </tr>
+                        <tr>
+                           <th>3</th>
+                           <th>£24</th>
+                        </tr>
+                        <tr>
+                           <th>4</th>
+                           <th>£22</th>
+                        </tr>
+                        <tr>
+                           <th>5</th>
+                           <th>£20</th>
+                        </tr>
+                        <tr>
+                           <th>6</th>
+                           <th>£18</th>
+                        </tr>
+                     </table>
+                     <p class="text-center"><small> Under 16’s must be accompanied by an adult</small></p>
+                  </div>
+                  <div class="text-center">
+                     <h5 class="pl-headder margin-top margin-bottom">Contact Us</h5>
+                     <p><i class="fas fa-envelope-square fa-lg"></i><br> <a id="email-link"
+                        href="mailto:customerservice@puzzellocked.co.uk">customerservice@puzzellocked.co.uk</a>
+                     </p>
+                     <p><i class="fas fa-phone-square fa-lg"></i> <br> 0113 123 456</p>
+                     <p><i class="fas fa-building fa-lg"></i><br> 78 Jenkins Lane, Leeds, LS1 2AA</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-----------Footer Section--------------->
+      <footer class="container-fluid">
+         <div class="row">
+            <div class=" d-none d-lg-block col-4 ">
+               <p class="caveat"><i class="far fa-copyright"></i>
+                  This site is for education purposes.
+               </p>
+            </div>
+            <div class="col-sm-6 col-lg-4">
+               <!----------Credit: Bootstrap Modal (which has a form added and styled using CSS)-------->
+               <!-- Button trigger modal -->
+               <button type="button" id="btn-position" class="btn btn-warning mail-btn" data-toggle="modal"
+                  data-target="#staticBackdrop">
+               Join Mailing List!
+               </button>
+               <!-- Modal -->
+               <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1"
+                  aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                     <div class="modal-content">
+                        <div class="modal-header">
+                           <h5 class="modal-title" id="staticBackdropLabel">Mailing List</h5>
+                           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                           <span aria-hidden="true">&times;</span>
+                           </button>
+                        </div>
+                        <div class="modal-body mailing">
+                           <p class="model-text"> Join our mailing list to stay up to date with news and our latest
+                              offers.
+                           </p>
+                           <br>
+                           <form>
+                              <input class="inputs" type="text" id="fname" placeholder="First Name"
+                                 required><br><br>
+                              <input class="inputs" type="text" id="lname" placeholder="Surname" required><br><br>
+                              <input class="inputs" type="email" id="email" placeholder="Email Address"
+                                 required><br><br>
+                              <input class="submit-btn-style" type="submit" value="Join">
+                           </form>
+                           <br>
+                           <p><small>We wil never share your details within anyone else.</small></p>
+                        </div>
+                        <div class="modal-footer">
+                           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!----------*/End of Credit Bootstrap Modal*------>
             </div>
             <div class="col-sm-6 col-md-4 social-media">
-                <div>
-                    <ul>
-                        <li class="social icons"><a href="https://www.facebook.com" target="_blank"><i
-                                    class="fab fa-facebook-square fa-lg"></i></a></li>
-                        <li class="social icons"><a href="https://www.twitter.com" target="_blank"><i
-                                    class="fab fa-twitter fa-lg"></i> </a> </li>
-                        <li class="social icons"><a href="https://www.instagram.com" target="_blank"><i
-                                    class="fab fa-instagram fa-lg"></i></a></li>
-                        <li class="social icons"><a href="https://www.youtube.com" target="_blank"><i
-                                    class="fab fa-youtube fa-lg"></i></a></li>
-                    </ul>
-                </div>
+               <div>
+                  <ul>
+                     <li class="social icons"><a href="https://www.facebook.com" target="_blank"><i
+                        class="fab fa-facebook-square fa-lg"></i></a></li>
+                     <li class="social icons"><a href="https://www.twitter.com" target="_blank"><i
+                        class="fab fa-twitter fa-lg"></i> </a> </li>
+                     <li class="social icons"><a href="https://www.instagram.com" target="_blank"><i
+                        class="fab fa-instagram fa-lg"></i></a></li>
+                     <li class="social icons"><a href="https://www.youtube.com" target="_blank"><i
+                        class="fab fa-youtube fa-lg"></i></a></li>
+                  </ul>
+               </div>
             </div>
-        </div>
-    </footer>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</body>
-
+         </div>
+      </footer>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
+   </body>
 </html>

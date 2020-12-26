@@ -3,459 +3,359 @@
 /*-------------------Default styles & fonts--------------*/
 
 * {
-    margin: 0;
-    padding: 0;
-    border: 0;
-}  
-
- body {
-	font-family: 'Merriweather Sans', sans-serif;
-    color: #A6ACAF;
-    letter-spacing: 2px;
-    font-size: 16px;
+	margin: 0;
+	padding: 0;
+	border: 0;
 }
-
+body {
+	font-family: 'Merriweather Sans', sans-serif;
+	color: #A6ACAF;
+	letter-spacing: 2px;
+	font-size: 16px;
+}
 .headings {
 	text-transform: uppercase;
-    color: #dc3545;
+	color: #dc3545;
 	font-weight: 500;
 	font-size: 30px;
 	text-align: center;
-    padding-top: 20px;
-    letter-spacing: normal;
+	padding-top: 20px;
+	letter-spacing: normal;
 }
-
 .page-heading {
-    text-align: center;
-    margin: 20px auto 0 auto;
-    width: 80%;
-    background: #000;
-    text-transform: uppercase;
-    height: auto;
-    
+	text-align: center;
+	margin: 20px auto 0 auto;
+	width: 80%;
+	background: #000;
+	text-transform: uppercase;
+	height: auto;
 }
-    
-
-
 /*------------------Navbar style--------------*/
 
 .bg-custom {
 	background-color: #000;
 }
 .navbar-custom {
-    color: #dc3545;
-    font-family: 'Luckiest Guy', cursive;
-    letter-spacing: 6px;
+	color: #dc3545;
+	font-family: 'Luckiest Guy', cursive;
+	letter-spacing: 6px;
 	font-size: 30px;
-    font-weight: 400;
-  	text-shadow: 1px 1px #A6ACAF;
+	font-weight: 400;
+	text-shadow: 1px 1px #A6ACAF;
 }
 .navbar-custom:hover {
 	color: #A6ACAF;
 	text-shadow: 2px 2px #000;
 	text-decoration: none;
 }
-
 .nav-active {
-    color: #dc3545;
-     font-weight: bold;
-     padding: 5px;
-     border-radius: 10px;
-     box-shadow: 1px 1px 4px 4px;
+	color: #dc3545;
+	font-weight: bold;
+	padding: 5px;
+	border-radius: 10px;
+	box-shadow: 1px 1px 4px 4px;
 }
 /*-------------------------- Background: Images & Colors------------------*/
 
 .hero-image-bg {
-     background: url("../images/heroimage.jpg") no-repeat center center;
-     background-size: cover;
-     width: 100%;
-     height: 70vh; 
-         
-     }
-
-#booking-bg {
-    background: url("../images/booking-bg.jpg") fixed center no-repeat;
-    width: 100%;
-    height: auto;
-    background-size: cover;
-       }
-
-#rooms-bg {
-    background: url("../images/bg-image-1.jpg") fixed center no-repeat;
-    width: 100%;
-   background-size: cover;
-	
-      
-   }
-   .section-color {
-	background-color: #000;
-    
+	background: url("../images/heroimage.jpg") no-repeat center center;
+	background-size: cover;
+	width: 100%;
+	height: 70vh;
 }
-    
+#booking-bg {
+	background: url("../images/booking-bg.jpg") fixed center no-repeat;
+	width: 100%;
+	height: auto;
+	background-size: cover;
+}
+#rooms-bg {
+	background: url("../images/bg-image-1.jpg") fixed center no-repeat;
+	width: 100%;
+	background-size: cover;
+}
+.section-color {
+	background-color: #000;
+}
 /*--------------------------Call-Out/call to action--------------*/
 
-	
 .callout-text {
-    color: rgb(255, 255, 255);
-    font-size: 60px; 
-    text-align: center;  
-    margin-top: 10%;
-    letter-spacing: normal;
-      text-shadow: 2px 2px 2px  #dc3545;
-          
-} 
-
+	color: rgb(255, 255, 255);
+	font-size: 60px;
+	text-align: center;
+	margin-top: 10%;
+	letter-spacing: normal;
+	text-shadow: 2px 2px 2px #dc3545;
+}
 .button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 20px;
-   }
-
-.callout-button    {
-    text-align: center;
-    padding: 20px 2 20px 2;
-    font-size: x-large;
-      }
-		
-       
-
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 20px;
+}
+.callout-button {
+	text-align: center;
+	padding: 20px 2 20px 2;
+	font-size: x-large;
+}
 .callout-button:hover {
 	color: #000;
 	background-color: #EC019C;
 }
-
 /*---------------------About Section 'What is an Escape Room?'..........*/
 
-
 .about-text {
-	border: 2px solid #A6ACAF ;
-    box-shadow: 1px 1px 4px 4px;
+	border: 2px solid #A6ACAF;
+	box-shadow: 1px 1px 4px 4px;
 	margin: 20px 200px 50px 200px;
 	padding: 20px;
 	line-height: 25px;
-    text-align: justify;
-    border-radius: 2%;
-    }
-
-    .rooms-link {
-    color: #dc3545;
-   
+	text-align: justify;
+	border-radius: 2%;
 }
-
-.rooms-link:hover{
-    color: #EC019C;
-    text-decoration: none;
+.rooms-link {
+	color: #dc3545;
 }
-
+.rooms-link:hover {
+	color: #EC019C;
+	text-decoration: none;
+}
 /*----------------------------Customer Comments---------------*/
 
 .reviews {
-    margin-top: 40px;
-    margin-bottom: 80px;
-    line-height: 25px;
-    position: relative;
+	margin-top: 40px;
+	margin-bottom: 80px;
+	line-height: 25px;
+	position: relative;
 }
-
 .review-img {
-  border-radius: 10%;
-   width: 31%;
-   margin-left: 33%;
-   margin-right: 0;
-   padding: 10px;
-   align-items: center;
+	border-radius: 10%;
+	width: 31%;
+	margin-left: 33%;
+	margin-right: 0;
+	padding: 10px;
+	align-items: center;
 }
-
-
 .review-text {
-        font-size: 19px;  
-        letter-spacing: normal;
-        line-height: 25px;  
-        width: 80%;
-        margin-left: 10%;
-        margin-right: 10%;
-       
-            
-} 
-
-.name-color {
-    color: #dc3545;
-    float: right;
+	font-size: 19px;
+	letter-spacing: normal;
+	line-height: 25px;
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
 }
-
+.name-color {
+	color: #dc3545;
+	float: right;
+}
 /*-----------------Rooms-----------------*/
 
 .room-images {
-    width: 80%;
+	width: 80%;
 	border-radius: 2%;
-    margin: 0 10% 0 10%;
-    }
-
-.room-boxes {
-border: 2px solid #A6ACAF;
-box-shadow: 1px 1px 4px 4px;
-background-color: #000;
-border-radius: 2%;
-position: relative;
-height: auto;
+	margin: 0 10% 0 10%;
 }
-
+.room-boxes {
+	border: 2px solid #A6ACAF;
+	box-shadow: 1px 1px 4px 4px;
+	background-color: #000;
+	border-radius: 2%;
+	position: relative;
+	height: auto;
+}
 .room-description {
-    
-    margin: 20px 10px 70px 10px;
+	margin: 20px 10px 70px 10px;
 	padding: 5px;
 	line-height: 25px;
-    text-align: justify;
-    }
-
+	text-align: justify;
+}
 .room-section-margin {
-    padding-top: 20px;
-    padding-bottom: 20px;
-   }
-
-
-
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
 .btn-bottom {
-    position: absolute;
-    bottom: 10px;
-    left: 0;
-    right: 0;
+	position: absolute;
+	bottom: 10px;
+	left: 0;
+	right: 0;
 }
- 
-
 .booking-btn {
-padding: 15px;
-border-radius: 5px;
-background-color: #dc3545;
-color:#fdfdfd;
-text-decoration: none;
-position: relative;
+	padding: 15px;
+	border-radius: 5px;
+	background-color: #dc3545;
+	color: #fdfdfd;
+	text-decoration: none;
+	position: relative;
 }
-
 .booking-btn:hover {
-    color: #dc3545;
-    background-color:#fdfdfd;
+	color: #dc3545;
+	background-color: #fdfdfd;
 }
-
 /*----------Gallery--------*/
 
 #gallery {
-    column-count: 3;
-    column-gap: 10px;
-    display: inline-block;
-    margin-bottom: 20px;
-    }
-
-.gallery-pics{
-    max-width: 100%;
-    height: auto;
-    border-radius: 5px 5px;
-    margin-top: 10px;
-      
+	column-count: 3;
+	column-gap: 10px;
+	display: inline-block;
+	margin-bottom: 20px;
+}
+.gallery-pics {
+	max-width: 100%;
+	height: auto;
+	border-radius: 5px 5px;
+	margin-top: 10px;
 }
 .gallery-room-btn {
-    margin: 0 auto;
-    min-width: 100px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+	margin: 0 auto;
+	min-width: 100px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
-
 /*-----------------Price List-----------------*/
+
 .pl-header {
-    text-transform: uppercase;
-    color: #dc3545;
-    font-weight: 500;
-    letter-spacing: normal;
-    background: #000;
-    margin: 15px auto 0 auto;
-    
-    
+	text-transform: uppercase;
+	color: #dc3545;
+	font-weight: 500;
+	letter-spacing: normal;
+	background: #000;
+	margin: 15px auto 0 auto;
 }
-
 .table {
-    color: #A6ACAF;
-    padding: 5px;
+	color: #A6ACAF;
+	padding: 5px;
 	line-height: 25px;
-    text-align: justify;
+	text-align: justify;
 }
-
-    .table-border {
-    border: 2px solid #A6ACAF;
-    box-shadow: 1px 1px 4px 4px;
-    background-color: #000;
-    border-radius: 2%;
-    margin-top: 30px;
-    margin-bottom: 30px;
-   
-
+.table-border {
+	border: 2px solid #A6ACAF;
+	box-shadow: 1px 1px 4px 4px;
+	background-color: #000;
+	border-radius: 2%;
+	margin-top: 30px;
+	margin-bottom: 30px;
 }
-
-
 /*---------------------------Booking & contact --------------------------*/
 
-
 .center-form {
-    width: 65%;
-    margin: 0 auto;
+	width: 65%;
+	margin: 0 auto;
 }
-    
 #email-link {
-    color: #A6ACAF;
+	color: #A6ACAF;
 }
-
 #email-link:hover {
-    color:#dc3545;
-    text-decoration: none;
+	color: #dc3545;
+	text-decoration: none;
 }
-
 .margin-top {
-    margin-top: 70px;
+	margin-top: 70px;
 }
-
 .margin-bottom {
-    margin-bottom: 10px;
+	margin-bottom: 10px;
 }
-
 /*---------------------------Footer--------------------------*/
 
-
 footer {
-    background-color: #dc3545;
-    text-align: center;
-    color: #fdfdfd;
-    line-height: auto;
-    vertical-align: center;
-    padding-top: 15px;
-    Padding-bottom: 15px;
-   }
-
+	background-color: #dc3545;
+	text-align: center;
+	color: #fdfdfd;
+	line-height: auto;
+	vertical-align: center;
+	padding-top: 15px;
+	Padding-bottom: 15px;
+}
 .caveat {
-    margin-left: 20px;
-    margin-top: 10px;
-    text-align: center;
+	margin-left: 20px;
+	margin-top: 10px;
+	text-align: center;
 }
-
 .social-media {
-    width: 100%;
-    margin: auto;
-  
+	width: 100%;
+	margin: auto;
 }
-
 ul {
-    margin: 0;
-    padding: 0;
+	margin: 0;
+	padding: 0;
 }
-
 ul li {
-     list-style-type: none;
-     display: inline-block;
-    
-     
- }
-
-ul li i {
-    
-    color: #fff;
-    padding: 0 10px 0 10px;
-    text-align: center;
-    
-    
-    
+	list-style-type: none;
+	display: inline-block;
 }
-
- ul li i:hover {
-     color: #ffc107;
-     
- }
- 
-
+ul li i {
+	color: #fff;
+	padding: 0 10px 0 10px;
+	text-align: center;
+}
+ul li i:hover {
+	color: #ffc107;
+}
 /*----------------------------------Modal-------------------------*/
 
 .mailing {
-    color: #000;
-    border: 1px solid #000;
+	color: #000;
+	border: 1px solid #000;
 }
-
 .inputs {
-    border-radius: 8px;
-    width: 70%;
-    border: 1px solid #000;
+	border-radius: 8px;
+	width: 70%;
+	border: 1px solid #000;
 }
-
 .submit-btn-style {
-   background-color: #dc3545; 
-   color:#fff;
-   border-radius: 8px;
-   padding: 10px 25px 10px 25px;
-   font-size: large;
+	background-color: #dc3545;
+	color: #fff;
+	border-radius: 8px;
+	padding: 10px 25px 10px 25px;
+	font-size: large;
 }
-
 .submit-btn-style:hover {
-    background-color: #EC019C;
-    color: #000;
+	background-color: #EC019C;
+	color: #000;
 }
-
-
-
 /*----------------------------@media Queries---------------*/
 
 @media screen and (max-width: 575px) {
-
-    .about-text {
-          border: none;
-          box-shadow: none;
-          padding: 0;
-          margin-left: 10px;
-          margin-right: 10px;
-        }
-
-.review-img {
-    display: none;
-   }
-
-   .reviews {
-   margin: 10px;
-   }
-
-   #comment-margin {
-       margin-bottom: 50px;
-   }
-
-ul li i {
-    margin-top: 15px;
+	.about-text {
+		border: none;
+		box-shadow: none;
+		padding: 0;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	.review-img {
+		display: none;
+	}
+	.reviews {
+		margin: 10px;
+	}
+	#comment-margin {
+		margin-bottom: 50px;
+	}
+	ul li i {
+		margin-top: 15px;
+	}
+	.room-boxes,
+	.table-border {
+		border: none;
+		box-shadow: none;
+		margin-top: 30px;
+	}
+	#gallery {
+		column-count: 1;
+	}
+	#booking-bg,
+	#rooms-bg {
+		background: none;
+		background-color: #000;
+	}
+	.page-heading {
+		border: none;
+		box-shadow: none;
+		background-color: none;
+	}
 }
-    .room-boxes,
-    .table-border {
-     border: none;
-     box-shadow: none;
-     margin-top: 30px;
- }
-
-#gallery {
-    column-count: 1;
-}
-
-    #booking-bg,
-    #rooms-bg {
-    background: none;
-    background-color: #000;
- }
-.page-heading {
-    border: none;
-    box-shadow: none;
-    background-color: none;
-}
-}
-
 @media screen and (max-width: 1024px) {
-    .about-text {
-margin: 20px 20px 50px 20px;
+	.about-text {
+		margin: 20px 20px 50px 20px;
+	}
 }
-}
-
-
-    
-
-   
-
-
