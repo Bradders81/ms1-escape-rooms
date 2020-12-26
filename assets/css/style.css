@@ -11,7 +11,7 @@
  body {
 	font-family: 'Merriweather Sans', sans-serif;
     color: #A6ACAF;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     font-size: 16px;
 }
 
@@ -78,7 +78,7 @@
     width: 100%;
     height: auto;
     background-size: cover;
-   }
+       }
 
 #rooms-bg {
     background: url("../images/bg-image-1.jpg") fixed center no-repeat;
@@ -92,7 +92,7 @@
     
 }
     
-/*--------------------------Callout/call to action--------------*/
+/*--------------------------Call-Out/call to action--------------*/
 
 	
 .callout-text {
@@ -261,7 +261,7 @@ position: relative;
 }
 
 /*-----------------Price List-----------------*/
-.pl-headder {
+.pl-header {
     text-transform: uppercase;
     color: #dc3545;
     font-weight: 500;
