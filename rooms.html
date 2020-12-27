@@ -1,177 +1,192 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-      <meta name="Description" content="Enter your description here" />
-      <link rel="stylesheet"
-         href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css" />
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" />
-      <link rel="stylesheet" href="assets/css/style.css" />
-      <title>Puzzle Locked | Room</title>
-   </head>
-   <body id="rooms-bg">
-      <header class="sticky-top">
-         <!----Credit Bootstrap Navbar (styled using CSS)-->
-         <nav class="navbar navbar-expand-md navbar-dark bg-custom ">
-            <a class="navbar-custom" href="index.html">Puzzle Locked!</a>
-            <button class="navbar-toggler test" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-               aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-               <div class="navbar-nav ml-auto">
-                  <a class="nav-link" href="index.html">Home</a>
-                  <a class="nav-link active" href="rooms.html"> <span class="nav-active">Rooms</span></a>
-                  <a class="nav-link"  href="gallery.html">Gallery</a>
-                  <a class="nav-link" href="bookingcontact.html">Booking & Contact</a>
-               </div>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Puzzle Locked | Room</title>
+</head>
+
+<body id="rooms-bg">
+    <div class="content">
+        <header class="sticky-top">
+            <!----Credit Bootstrap Navbar (styled using CSS)-->
+            <nav class="navbar navbar-expand-md navbar-dark bg-custom ">
+                <a class="navbar-custom" href="index.html">Puzzle Locked!</a>
+                <button class="navbar-toggler test" type="button" data-toggle="collapse"
+                    data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ml-auto">
+                        <a class="nav-link" href="index.html">Home</a>
+                        <a class="nav-link active" href="rooms.html"> <span class="nav-active">Rooms</span></a>
+                        <a class="nav-link" href="gallery.html">Gallery</a>
+                        <a class="nav-link" href="bookingcontact.html">Booking & Contact</a>
+                    </div>
+                </div>
+            </nav>
+            <!-----/ End credit Bootstrap Navbar-->
+        </header>
+
+        <!------------Rooms Header Section (for sm view ports only)---------------->
+        <section class="container">
+            <div class="row">
+                <div class="col-sm-12 d-md-none">
+                    <div class="page-heading ">
+                        <h3 class="nav-active">Choose your room</h3>
+                    </div>
+                </div>
             </div>
-         </nav>
-         <!-----/ End credit Bootstrap Navbar-->
-      </header>
-      <!------------Rooms Header Section (for sm view ports only)---------------->
-      <section class="container">
-         <div class="row">
-            <div class="col-sm-12 d-md-none">
-               <div class="page-heading ">
-                  <h3 class="nav-active">Choose your room</h3>
-               </div>
+        </section>
+        <!------------Rooms Section---------------->
+        <section class="room-section-margin">
+            <div class="container">
+                <div class="row .bg-custom">
+                    <div class="col-md-12 col-lg-6 room-boxes">
+                        <h3 class="headings">VR Experience</h3>
+                        <img class="room-images" src="assets/images/vr-room.jpg"
+                            alt="Image of man with a VR headset and holding VR remotes">
+                        <p class="room-description">The virtual reality room provides a truly immersive experience. Our
+                            library of different games is updated regularly and with dozens of different experiences to
+                            chose from, we will always have a new challenge waiting for you. <br><br>
+                            Escape a labyrinth, a falling space station, a run away train and many more.
+                        </p>
+                        <div class="text-center btn-bottom">
+                            <a class=" btn booking-btn" href="bookingcontact.html">BOOK NOW</a>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-lg-6 room-boxes">
+                        <h3 class="headings">Stop the Bomb</h3>
+                        <img class="room-images" src="assets/images/control-room.jpg"
+                            alt="Image of an underground control room">
+                        <p class="room-description">A cyber attack on the country’s nuclear defensive system has armed a
+                            nuclear bomb. As a safety measure, the computer system has locked the facility down and you
+                            are
+                            trapped in the control room. <br><br>
+                            The fate of the nation is in the hands of you and your team. The
+                            only way out is to crack the encryption code, deactivate the bomb and reset the system. The
+                            clock is ticking.
+                        </p>
+                        <div class="text-center btn-bottom">
+                            <a class=" btn booking-btn" href="bookingcontact.html">BOOK NOW</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row .bg-custom">
+                    <div class="col-md-12 col-lg-6 room-boxes">
+                        <h3 class="headings">Where are We?</h3>
+                        <img class="room-images" src="assets/images/cabin-room.jpg"
+                            alt="Image of warm wooden cabin living room">
+                        <p class="room-description">Out hiking you seek refuge in a cabin to escape a blizzard. The
+                            storm
+                            has settled, but the cabin has been snowed in. You telephone for help, but you do not know
+                            where
+                            you are. <br><br>
+                            A further storm is approaching, can use the clues in the cabin to help the mountain rescue
+                            team
+                            to find you before the storm hits again? Don’t forget to keep an eye on the local news
+                            reports
+                            on the TV.
+                        </p>
+                        <div class=" text-center btn-bottom">
+                            <a class=" btn booking-btn" href="bookingcontact.html">BOOK NOW</a>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-lg-6 room-boxes">
+                        <h3 class="headings">Let me Out!</h3>
+                        <img class="room-images" src="assets/images/basement-room.jpg"
+                            alt="Image of old underground room with 50's furniture">
+                        <p class="room-description">Your car has been hijacked and you and your friend have been
+                            abducted
+                            and locked in an old underground basement.
+                            <br><br>
+                            If you want to see the light of day again you, must search the rooms and find a way to
+                            escape
+                            before your captors return.
+                        </p>
+                        <div class="text-center btn-bottom">
+                            <a class="btn booking-btn" href="bookingcontact.html">BOOK NOW</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-         </div>
-      </section>
-      <!------------Rooms Section---------------->
-      <section class="room-section-margin">
-         <div class="container">
-            <div class="row .bg-custom">
-               <div class="col-md-12 col-lg-6 room-boxes">
-                  <h3 class="headings">VR Experience</h3>
-                  <img class="room-images" src="assets/images/vr-room.jpg"
-                     alt="Image of man with a VR headset and holding VR remotes">
-                  <p class="room-description">The virtual reality room provides a truly immersive experience. Our
-                     library of different games is updated regularly and with dozens of different experiences to
-                     chose from, we will always have a new challenge waiting for you. <br><br>
-                     Escape a labyrinth, a falling space station, a run away train and many more.
-                  </p>
-                  <div class="text-center btn-bottom">
-                     <a class=" btn booking-btn" href="bookingcontact.html">BOOK NOW</a>
-                  </div>
-               </div>
-               <div class="col-md-12 col-lg-6 room-boxes">
-                  <h3 class="headings">Stop the Bomb</h3>
-                  <img class="room-images" src="assets/images/control-room.jpg"
-                     alt="Image of an underground control room">
-                  <p class="room-description">A cyber attack on the country’s nuclear defensive system has armed a
-                     nuclear bomb. As a safety measure, the computer system has locked the facility down and you are
-                     trapped in the control room. <br><br>
-                     The fate of the nation is in the hands of you and your team. The
-                     only way out is to crack the encryption code, deactivate the bomb and reset the system. The
-                     clock is ticking.
-                  </p>
-                  <div class="text-center btn-bottom">
-                     <a class=" btn booking-btn" href="bookingcontact.html">BOOK NOW</a>
-                  </div>
-               </div>
-            </div>
-            <div class="row .bg-custom">
-               <div class="col-md-12 col-lg-6 room-boxes">
-                  <h3 class="headings">Where are We?</h3>
-                  <img class="room-images" src="assets/images/cabin-room.jpg" alt="Image of warm wooden cabin living room">
-                  <p class="room-description">Out hiking you seek refuge in a cabin to escape a blizzard. The storm
-                     has settled, but the cabin has been snowed in. You telephone for help, but you do not know where
-                     you are. <br><br>
-                     A further storm is approaching, can use the clues in the cabin to help the mountain rescue team
-                     to find you before the storm hits again? Don’t forget to keep an eye on the local news reports
-                     on the TV.
-                  </p>
-                  <div class=" text-center btn-bottom">
-                     <a class=" btn booking-btn" href="bookingcontact.html">BOOK NOW</a>
-                  </div>
-               </div>
-               <div class="col-md-12 col-lg-6 room-boxes">
-                  <h3 class="headings">Let me Out!</h3>
-                  <img class="room-images" src="assets/images/basement-room.jpg"
-                     alt="Image of old underground room with 50's furniture">
-                  <p class="room-description">Your car has been hijacked and you and your friend have been abducted
-                     and locked in an old underground basement.
-                     <br><br>
-                     If you want to see the light of day again you, must search the rooms and find a way to escape
-                     before your captors return.
-                  </p>
-                  <div class="text-center btn-bottom">
-                     <a class="btn booking-btn" href="bookingcontact.html">BOOK NOW</a>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </section>
-      <!-----------Footer Section--------------->
-      <footer class="container-fluid">
-         <div class="row">
+        </section>
+    </div>
+    <!-----------Footer Section--------------->
+    <footer class="container-fluid footer">
+        <div class="row">
             <div class=" d-none d-lg-block col-4 ">
-               <p class="caveat"><i class="far fa-copyright"></i>
-                  This site is for education purposes.
-               </p>
+                <p class="caveat"><i class="far fa-copyright"></i>
+                    This site is for education purposes.
+                </p>
             </div>
             <div class="col-sm-6 col-lg-4">
-               <!----------Credit: Bootstrap Modal (which has a form added and styled using CSS)-------->
-               <!-- Button trigger modal -->
-               <button type="button" id="btn-position" class="btn btn-warning mail-btn" data-toggle="modal"
-                  data-target="#staticBackdrop">
-               Join our Mailing List!
-               </button>
-               <!-- Modal -->
-               <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1"
-                  aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                  <div class="modal-dialog">
-                     <div class="modal-content">
-                        <div class="modal-header">
-                           <h5 class="modal-title" id="staticBackdropLabel">Mailing List</h5>
-                           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                           <span aria-hidden="true">&times;</span>
-                           </button>
+                <!----------Credit: Bootstrap Modal (which has a form added and styled using CSS)-------->
+                <!-- Button trigger modal -->
+                <button type="button" id="btn-position" class="btn btn-warning mail-btn" data-toggle="modal"
+                    data-target="#staticBackdrop">
+                    Join our Mailing List!
+                </button>
+                <!-- Modal -->
+                <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1"
+                    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="staticBackdropLabel">Mailing List</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body mailing">
+                                <p class="model-text"> Join our mailing list to stay up to date with news and our latest
+                                    offers.
+                                </p>
+                                <br>
+                                <form>
+                                    <input class="inputs" type="text" id="fname" placeholder="First Name"><br><br>
+                                    <input class="inputs" type="text" id="lname" placeholder="Surname"><br><br>
+                                    <input class="inputs" type="email" id="email" placeholder="Email Address"><br><br>
+                                    <input class="submit-btn-style" type="submit" value="Join">
+                                </form>
+                                <br>
+                                <p><small>We wil never share your details within anyone else.</small></p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
                         </div>
-                        <div class="modal-body mailing">
-                           <p class="model-text"> Join our mailing list to stay up to date with news and our latest
-                              offers.
-                           </p>
-                           <br>
-                           <form>
-                              <input class="inputs" type="text" id="fname" placeholder="First Name"><br><br>
-                              <input class="inputs" type="text" id="lname" placeholder="Surname"><br><br>
-                              <input class="inputs" type="email" id="email" placeholder="Email Address"><br><br>
-                              <input class="submit-btn-style" type="submit" value="Join">
-                           </form>
-                           <br>
-                           <p><small>We wil never share your details within anyone else.</small></p>
-                        </div>
-                        <div class="modal-footer">
-                           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <!----------*/End of Credit Bootstrap Modal*------>
+                    </div>
+                </div>
+                <!----------*/End of Credit Bootstrap Modal*------>
             </div>
             <div class="col-sm-6 col-md-4 social-media">
-               <div>
-                  <ul>
-                     <li class="social icons"><a href="https://www.facebook.com" target="_blank"><i
-                        class="fab fa-facebook-square fa-lg"></i></a></li>
-                     <li class="social icons"><a href="https://www.twitter.com" target="_blank"><i
-                        class="fab fa-twitter fa-lg"></i> </a> </li>
-                     <li class="social icons"><a href="https://www.instagram.com" target="_blank"><i
-                        class="fab fa-instagram fa-lg"></i></a></li>
-                     <li class="social icons"><a href="https://www.youtube.com" target="_blank"><i
-                        class="fab fa-youtube fa-lg"></i></a></li>
-                  </ul>
-               </div>
+                <div>
+                    <ul>
+                        <li class="social icons"><a href="https://www.facebook.com" target="_blank"><i
+                                    class="fab fa-facebook-square fa-lg"></i></a></li>
+                        <li class="social icons"><a href="https://www.twitter.com" target="_blank"><i
+                                    class="fab fa-twitter fa-lg"></i> </a> </li>
+                        <li class="social icons"><a href="https://www.instagram.com" target="_blank"><i
+                                    class="fab fa-instagram fa-lg"></i></a></li>
+                        <li class="social icons"><a href="https://www.youtube.com" target="_blank"><i
+                                    class="fab fa-youtube fa-lg"></i></a></li>
+                    </ul>
+                </div>
             </div>
-         </div>
-      </footer>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
-   </body>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
 </html>

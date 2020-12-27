@@ -7,11 +7,26 @@
 	padding: 0;
 	border: 0;
 }
+
+html, body {
+  height: 100%;
+}
+
 body {
 	font-family: 'Merriweather Sans', sans-serif;
 	color: #A6ACAF;
 	letter-spacing: 2px;
-	font-size: 16px;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+  flex-shrink: 0;
+}
+
+.content {
+  flex: 1 0 auto;
 }
 .headings {
 	text-transform: uppercase;
@@ -67,15 +82,14 @@ body {
 #booking-bg {
 	background: url("../images/booking-bg.jpg") fixed center no-repeat;
 	width: 100%;
-	height: auto;
-    background-size: cover;
-    overflow: hidden;
+	background-size: cover;
+  
 }
 #rooms-bg {
 	background: url("../images/bg-image-1.jpg") fixed center no-repeat;
 	width: 100%;
     background-size: cover;
-    overflow: hidden;
+ 
 }
 .section-color {
 	background-color: #000;
@@ -98,7 +112,7 @@ body {
 }
 .callout-button {
 	text-align: center;
-	padding: 20px 2 20px 2;
+	padding: 20px 0 20px 0;
 	font-size: x-large;
 }
 .callout-button:hover {
@@ -263,7 +277,6 @@ footer {
 	background-color: #dc3545;
 	text-align: center;
 	color: #fdfdfd;
-	line-height: auto;
 	vertical-align: center;
 	padding-top: 15px;
 	Padding-bottom: 15px;
@@ -354,7 +367,7 @@ ul li i:hover {
 	.page-heading {
 		border: none;
 		box-shadow: none;
-		background-color: none;
+		background-color:none;
 	}
 }
 @media screen and (max-width: 1024px) {
