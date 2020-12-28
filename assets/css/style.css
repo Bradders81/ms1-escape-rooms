@@ -28,6 +28,17 @@ body {
 .content {
   flex: 1 0 auto;
 }
+
+.sub-header {
+	text-transform: uppercase;
+	color: #dc3545;
+	font-weight: 500;
+	letter-spacing: normal;
+	background: #000;
+    margin: 15px auto 0 auto;
+    
+}
+
 .headings {
 	text-transform: uppercase;
 	color: #dc3545;
@@ -45,6 +56,7 @@ body {
 	text-transform: uppercase;
 	height: auto;
 }
+
 /*------------------Navbar style--------------*/
 
 .bg-custom {
@@ -94,6 +106,8 @@ body {
 .section-color {
 	background-color: #000;
 }
+
+
 /*--------------------------Call-Out/call to action--------------*/
 
 .callout-text {
@@ -118,6 +132,16 @@ body {
 .callout-button:hover {
 	color: #000;
 	background-color: #EC019C;
+}
+
+.sub-header {
+	text-transform: uppercase;
+	color: #dc3545;
+	font-weight: 500;
+	letter-spacing: normal;
+	background: #000;
+    margin: 15px auto 0 auto;
+    
 }
 /*---------------------About Section 'What is an Escape Room?'..........*/
 
@@ -209,7 +233,15 @@ body {
 	background-color: #fdfdfd;
 }
 /*----------Gallery--------*/
-
+#gallery-heading-border {
+	border-radius: 10px;
+    box-shadow: #A6ACAF 1px 1px 4px 4px;
+    background-color: #000;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width:60%;
+    margin: 0 auto;
+}
 #gallery {
 	column-count: 3;
 	column-gap: 10px;
@@ -226,18 +258,24 @@ body {
 	margin: 0 auto;
 	min-width: 100px;
 	padding-top: 20px;
-	padding-bottom: 20px;
+    padding-bottom: 20px;
+ 
 }
+.gallery-room-btn a {
+    border: #000 solid 1px;
+
+}
+
+.gallery-room-btn a:hover{
+    color: #000000;
+    background-color: #EC019C;
+   
+
+}
+
 /*-----------------Price List-----------------*/
 
-.sub-header {
-	text-transform: uppercase;
-	color: #dc3545;
-	font-weight: 500;
-	letter-spacing: normal;
-	background: #000;
-	margin: 15px auto 0 auto;
-}
+
 .table {
 	color: #A6ACAF;
 	padding: 5px;
@@ -270,6 +308,10 @@ body {
 }
 .margin-bottom {
 	margin-bottom: 10px;
+}
+
+#pl-sm {
+    display: none;
 }
 /*---------------------------Footer--------------------------*/
 
@@ -358,7 +400,14 @@ ul li i:hover {
 	}
 	#gallery {
 		column-count: 1;
-	}
+    }
+    
+    #gallery-heading-border {
+        box-shadow: none;
+    }
+    
+
+
 	#booking-bg,
 	#rooms-bg {
 		background: none;
@@ -368,8 +417,10 @@ ul li i:hover {
 		border: none;
 		box-shadow: none;
 		background-color:none;
-	}
+    }
 }
+
+
 @media screen and (max-width: 1024px) {
 	.about-text {
 		margin: 20px 20px 50px 20px;
