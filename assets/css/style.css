@@ -72,7 +72,7 @@ body {
 }
 .navbar-custom:hover {
 	color: #A6ACAF;
-	text-shadow: 2px 2px #000;
+	text-shadow: 2px 2px #dc3545;
 	text-decoration: none;
 }
 .nav-active {
@@ -116,7 +116,7 @@ body {
 	text-align: center;
 	margin-top: 10%;
 	letter-spacing: normal;
-	text-shadow: 2px 2px 2px #dc3545;
+	text-shadow: 2px 2px  #dc3545;
 }
 .button {
 	display: flex;
@@ -152,7 +152,7 @@ body {
 	padding: 20px;
 	line-height: 25px;
 	text-align: justify;
-	border-radius: 2%;
+	border-radius: 10px;
 }
 .rooms-link {
 	color: #dc3545;
@@ -200,7 +200,7 @@ body {
 	border: 2px solid #A6ACAF;
 	box-shadow: 1px 1px 4px 4px;
 	background-color: #000;
-	border-radius: 2%;
+	border-radius: 10px;
 	position: relative;
 	height: auto;
 }
@@ -286,7 +286,7 @@ body {
 	border: 2px solid #A6ACAF;
 	box-shadow: 1px 1px 4px 4px;
 	background-color: #000;
-	border-radius: 2%;
+	border-radius: 10px;
 	margin-top: 30px;
 	margin-bottom: 30px;
 }
