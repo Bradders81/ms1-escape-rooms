@@ -126,7 +126,7 @@ body {
 }
 .callout-button {
 	text-align: center;
-	padding: 20px 0 20px 0;
+	padding: 15px;
 	font-size: x-large;
 }
 .callout-button:hover {
