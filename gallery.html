@@ -5,7 +5,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <meta name="Description" content="Enter your description here" />
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" />
@@ -13,7 +12,7 @@
     <title>Puzzle Locked | Gallery</title>
 </head>
 
-<body id="rooms-bg">
+<body class="bg-1">
     <div class="content">
         <header class="sticky-top">
             <!--Credit Bootstrap Navbar (styled using CSS)-->
@@ -35,47 +34,50 @@
             </nav>
             <!--/End credit Bootstrap Navbar-->
         </header>
-        <section class="container">
-            <div class="row">
-                <div class="col-sm-12 col-md-6 offset-md-3">
-                    <div class="headings">
-                        <h3 id="gallery-heading-border">Gallery</h3>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--Gallery-->
+
+        <!--Gallery Section-->
         <section class="container margin-top margin-bottom">
-            <div id="gallery">
-                <img class="gallery-pics" src="assets/images/gallery/escape-rooms-red.jpg"
-                    alt="Image: of the words Escape Rooms in red neon">
-                <img class="gallery-pics" src="assets/images/gallery/basement-room-3.jpg"
-                    alt="Image: old brick basement with red window">
-                                <img class="gallery-pics" src="assets/images/gallery/people-playing-puzzel-1.jpg"
-                    alt="Image: 3 people playing puzzle on floor">
-                <img class="gallery-pics" src="assets/images/gallery/vr-space-station.jpg"
-                    alt="Image: man planing VR holding controllers">
-                <img class="gallery-pics" src="assets/images/gallery/4-playing-escape-room-1.jpg"
-                    alt="Image: 4 people, one looking at a cross">
-                <img class="gallery-pics" src="assets/images/gallery/basement-room-2.jpg"
-                    alt="Image: underground basement with old black cases">
-                <img class="gallery-pics" src="assets/images/gallery/3-people-solving-puzzle.jpg"
-                    alt="Image: 3 people solving a puzzle, holding a bucket">
-                <img class="gallery-pics" src="assets/images/gallery/vr-remote.jpg" alt="Image: VR remote control">
-                <img class="gallery-pics" src="assets/images/gallery/4-people-playing-escape-room.jpg"
-                    alt="Image:4 people playing Escape Room">
-            </div>
-            <div class="container-fluid">
-                <div class="row">
-                    <div class=" text-center col-xs-12 gallery-room-btn">
-                        <a class=" text-center btn btn-danger " href="rooms.html">See Our Rooms</a>
-                    </div>
+        <!--Gallery Header Section (for smaller view ports only)-->
+        <div class="row">
+            <div class="col-sm-12 d-md-none">
+                <div>
+                    <h3 class="page-heading nav-active">Gallery</h3>
                 </div>
             </div>
-            <div class="room-button-1-row">
+        </div>
+
+        <div id="gallery">
+            <img class="gallery-pics" src="assets/images/gallery/escape-rooms-red.jpg"
+                alt="Image: of the words Escape Rooms in red neon">
+            <img class="gallery-pics" src="assets/images/gallery/basement-room-3.jpg"
+                alt="Image: old brick basement with red window">
+            <img class="gallery-pics" src="assets/images/gallery/people-playing-puzzel-1.jpg"
+                alt="Image: 3 people playing puzzle on floor">
+            <img class="gallery-pics" src="assets/images/gallery/vr-space-station.jpg"
+                alt="Image: man planing VR holding controllers">
+            <img class="gallery-pics" src="assets/images/gallery/4-playing-escape-room-1.jpg"
+                alt="Image: 4 people, one looking at a cross">
+            <img class="gallery-pics" src="assets/images/gallery/basement-room-2.jpg"
+                alt="Image: underground basement with old black cases">
+            <img class="gallery-pics" src="assets/images/gallery/3-people-solving-puzzle.jpg"
+                alt="Image: 3 people solving a puzzle, holding a bucket">
+            <img class="gallery-pics" src="assets/images/gallery/vr-remote.jpg" alt="Image: VR remote control">
+            <img class="gallery-pics" src="assets/images/gallery/4-people-playing-escape-room.jpg"
+                alt="Image:4 people playing Escape Room">
+        </div>
+        
+        <div class="container-fluid">
+            <div class="row">
+                <div class=" text-center col-xs-12 gallery-room-btn">
+                    <a class=" text-center btn btn-danger " href="rooms.html">See Our Rooms</a>
+                </div>
             </div>
+        </div>
+        <div class="room-button-1-row">
+        </div>
         </section>
     </div>
+
     <!--Footer Section-->
     <footer class="container-fluid footer">
         <div class="row">
@@ -127,7 +129,7 @@
             <div class="col-sm-6 col-md-4 social-media">
                 <div>
                     <ul>
-                        <li clas="social icons"><a href="https://www.facebook.com" target="_blank"><i
+                        <li class="social icons"><a href="https://www.facebook.com" target="_blank"><i
                                     class="fab fa-facebook-square fa-lg" aria-hidden="true"></i><span
                                     class="sr-only">Facebook link</span></a></li>
                         <li class="social icons"><a href="https://www.twitter.com" target="_blank"><i

@@ -8,25 +8,26 @@
 	border: 0;
 }
 
-html, body {
-  height: 100%;
+html,
+body {
+	height: 100%;
 }
 
 body {
 	font-family: 'Merriweather Sans', sans-serif;
 	color: #A6ACAF;
 	letter-spacing: 2px;
-    font-size: 16px;
-    display: flex;
-    flex-direction: column;
+	font-size: 16px;
+	display: flex;
+	flex-direction: column;
 }
 
 .footer {
-  flex-shrink: 0;
+	flex-shrink: 0;
 }
 
 .content {
-  flex: 1 0 auto;
+	flex: 1 0 auto;
 }
 
 .sub-header {
@@ -35,8 +36,7 @@ body {
 	font-weight: 500;
 	letter-spacing: normal;
 	background: #000;
-    margin: 15px auto 0 auto;
-    
+	margin: 15px auto 0 auto;
 }
 
 .headings {
@@ -48,6 +48,7 @@ body {
 	padding-top: 20px;
 	letter-spacing: normal;
 }
+
 .page-heading {
 	text-align: center;
 	margin: 20px auto 0 auto;
@@ -62,6 +63,7 @@ body {
 .bg-custom {
 	background-color: #000;
 }
+
 .navbar-custom {
 	color: #dc3545;
 	font-family: 'Luckiest Guy', cursive;
@@ -70,11 +72,13 @@ body {
 	font-weight: 400;
 	text-shadow: 1px 1px #A6ACAF;
 }
+
 .navbar-custom:hover {
 	color: #A6ACAF;
 	text-shadow: 2px 2px #dc3545;
 	text-decoration: none;
 }
+
 .nav-active {
 	color: #dc3545;
 	font-weight: bold;
@@ -88,25 +92,23 @@ body {
 	background: url("../images/heroimage.jpg") no-repeat center center;
 	background-size: cover;
 	width: 100%;
-    height: 70vh;
-    
+	height: 70vh;
 }
-#booking-bg {
+
+.bg-1 {
+	background: url("../images/bg-image-1.jpg") fixed center no-repeat;
+	width: 100%;
+	background-size: cover;
+}
+.bg-2 {
 	background: url("../images/booking-bg.jpg") fixed center no-repeat;
 	width: 100%;
 	background-size: cover;
-  
 }
-#rooms-bg {
-	background: url("../images/bg-image-1.jpg") fixed center no-repeat;
-	width: 100%;
-    background-size: cover;
- 
-}
+
 .section-color {
 	background-color: #000;
 }
-
 
 /*--------------------------Call-Out/call to action--------------*/
 
@@ -116,19 +118,22 @@ body {
 	text-align: center;
 	margin-top: 10%;
 	letter-spacing: normal;
-	text-shadow: 2px 2px  #dc3545;
+	text-shadow: 2px 2px #dc3545;
 }
+
 .button {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	margin-top: 20px;
 }
+
 .callout-button {
 	text-align: center;
 	padding: 15px;
 	font-size: x-large;
 }
+
 .callout-button:hover {
 	color: #000;
 	background-color: #EC019C;
@@ -140,9 +145,9 @@ body {
 	font-weight: 500;
 	letter-spacing: normal;
 	background: #000;
-    margin: 15px auto 0 auto;
-    
+	margin: 15px auto 0 auto;
 }
+
 /*---------------------About Section 'What is an Escape Room?'..........*/
 
 .about-text {
@@ -154,6 +159,7 @@ body {
 	text-align: justify;
 	border-radius: 10px;
 }
+
 .rooms-link {
 	color: #dc3545;
 }
@@ -161,14 +167,15 @@ body {
 	color: #EC019C;
 	text-decoration: none;
 }
-/*----------------------------Customer Comments---------------*/
 
+/*----------------------------Customer Comments---------------*/
 .reviews {
 	margin-top: 40px;
 	margin-bottom: 80px;
 	line-height: 25px;
 	position: relative;
 }
+
 .review-img {
 	border-radius: 10%;
 	width: 31%;
@@ -177,6 +184,7 @@ body {
 	padding: 10px;
 	align-items: center;
 }
+
 .review-text {
 	font-size: 19px;
 	letter-spacing: normal;
@@ -185,17 +193,19 @@ body {
 	margin-left: 10%;
 	margin-right: 10%;
 }
+
 .name-color {
 	color: #dc3545;
 	float: right;
 }
-/*-----------------Rooms-----------------*/
 
+/*-----------------Rooms-----------------*/
 .room-images {
 	width: 80%;
 	border-radius: 2%;
 	margin: 0 10% 0 10%;
 }
+
 .room-boxes {
 	border: 2px solid #A6ACAF;
 	box-shadow: 1px 1px 4px 4px;
@@ -204,22 +214,26 @@ body {
 	position: relative;
 	height: auto;
 }
+
 .room-description {
 	margin: 20px 10px 70px 10px;
 	padding: 5px;
 	line-height: 25px;
 	text-align: justify;
 }
+
 .room-section-margin {
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
+
 .btn-bottom {
 	position: absolute;
 	bottom: 10px;
 	left: 0;
 	right: 0;
 }
+
 .booking-btn {
 	padding: 15px;
 	border-radius: 5px;
@@ -228,60 +242,51 @@ body {
 	text-decoration: none;
 	position: relative;
 }
+
 .booking-btn:hover {
 	color: #dc3545;
 	background-color: #fdfdfd;
 }
+
 /*----------Gallery--------*/
-#gallery-heading-border {
-	border-radius: 10px;
-    box-shadow: #A6ACAF 1px 1px 4px 4px;
-    background-color: #000;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    width:60%;
-    margin: 0 auto;
-}
 #gallery {
 	column-count: 3;
 	column-gap: 10px;
 	display: inline-block;
 	margin-bottom: 20px;
 }
+
 .gallery-pics {
 	max-width: 100%;
 	height: auto;
 	border-radius: 5px 5px;
 	margin-top: 10px;
 }
+
 .gallery-room-btn {
 	margin: 0 auto;
 	min-width: 100px;
 	padding-top: 20px;
-    padding-bottom: 20px;
- 
+	padding-bottom: 20px;
 }
+
 .gallery-room-btn a {
-    border: #000 solid 1px;
-
+	border: #000 solid 1px;
 }
 
-.gallery-room-btn a:hover{
-    color: #000000;
-    background-color: #EC019C;
-   
-
+.gallery-room-btn a:hover {
+	color: #000000;
+	background-color: #EC019C;
 }
 
 /*-----------------Price List-----------------*/
-
-
 .table {
 	color: #A6ACAF;
 	padding: 5px;
 	line-height: 25px;
 	text-align: justify;
 }
+
 .table-border {
 	border: 2px solid #A6ACAF;
 	box-shadow: 1px 1px 4px 4px;
@@ -290,31 +295,36 @@ body {
 	margin-top: 30px;
 	margin-bottom: 30px;
 }
+
 /*---------------------------Booking & contact --------------------------*/
 
 .center-form {
 	width: 65%;
 	margin: 0 auto;
 }
+
 #email-link {
 	color: #A6ACAF;
 }
+
 #email-link:hover {
 	color: #dc3545;
 	text-decoration: none;
 }
+
 .margin-top {
 	margin-top: 70px;
 }
+
 .margin-bottom {
 	margin-bottom: 10px;
 }
 
 #pl-sm {
-    display: none;
+	display: none;
 }
-/*---------------------------Footer--------------------------*/
 
+/*---------------------------Footer--------------------------*/
 footer {
 	background-color: #dc3545;
 	text-align: center;
@@ -323,42 +333,50 @@ footer {
 	padding-top: 15px;
 	Padding-bottom: 15px;
 }
+
 .caveat {
 	margin-left: 20px;
 	margin-top: 10px;
 	text-align: center;
 }
+
 .social-media {
 	width: 100%;
 	margin: auto;
 }
+
 ul {
 	margin: 0;
 	padding: 0;
 }
+
 ul li {
 	list-style-type: none;
 	display: inline-block;
 }
+
 ul li i {
 	color: #fff;
 	padding: 0 10px 0 10px;
 	text-align: center;
 }
+
 ul li i:hover {
 	color: #ffc107;
 }
-/*----------------------------------Modal-------------------------*/
 
+/*----------------------------------Modal-------------------------*/
 .mailing {
 	color: #000;
 	border: 1px solid #000;
 }
+
 .inputs {
 	border-radius: 8px;
 	width: 70%;
 	border: 1px solid #000;
 }
+
 .submit-btn-style {
 	background-color: #dc3545;
 	color: #fff;
@@ -366,12 +384,13 @@ ul li i:hover {
 	padding: 10px 25px 10px 25px;
 	font-size: large;
 }
+
 .submit-btn-style:hover {
 	background-color: #EC019C;
 	color: #000;
 }
-/*----------------------------@media Queries---------------*/
 
+/*----------------------------@media Queries---------------*/
 @media screen and (max-width: 575px) {
 	.about-text {
 		border: none;
@@ -379,47 +398,48 @@ ul li i:hover {
 		padding: 0;
 		margin-left: 10px;
 		margin-right: 10px;
-	}
+    }
+    
 	.review-img {
 		display: none;
-	}
+    }
+    
 	.reviews {
 		margin: 10px;
-	}
+    }
+    
 	#comment-margin {
 		margin-bottom: 50px;
-	}
+    }
+    
 	ul li i {
 		margin-top: 15px;
-	}
+    }
+    
 	.room-boxes,
 	.table-border {
 		border: none;
 		box-shadow: none;
 		margin-top: 30px;
-	}
+    }
+    
 	#gallery {
 		column-count: 1;
     }
     
-    #gallery-heading-border {
-        box-shadow: none;
-    }
-    
-
-
-	#booking-bg,
-	#rooms-bg {
+	    
+	.bg-1,
+	.bg-2 {
 		background: none;
 		background-color: #000;
-	}
+    }
+    
 	.page-heading {
 		border: none;
 		box-shadow: none;
-		background-color:none;
-    }
+	
+	}
 }
-
 
 @media screen and (max-width: 1024px) {
 	.about-text {
