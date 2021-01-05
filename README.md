@@ -109,11 +109,10 @@ This will include the name and a description of the escape rooms available along
 
 Will contain images of the rooms and also customers taking part.  I did consider whether the images should be displayed using a carousel and this is something that I discussed with my mentor.  However, after doing some testing when building the page I decided to stick with the column layout from a UX stand point. As the gallery grows in size, clicking through a carousel is not as convenient as simply scrolling, so would not provide good UX.
 
-#### Booking
+### Booking
 
 The page will provide the user with the ability book an escape room online.  It will also provide the user with a price list and the contact details. As creating a mailing list database is an objective of the site owner, the booking form will have an option for the user to join the mailing list at the time of booking, so a user making a booking does not need to complete a separate from to join the mailing list.  
 
-[Click here for the sites wire frames](assets/docs/escape-room-wf.pdf)
 
 ### Future Features
 
