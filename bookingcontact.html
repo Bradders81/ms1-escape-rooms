@@ -5,7 +5,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <meta name="Puzzle Locked" content="An enthralling escape room experience in Leeds LS1. Suitable for social and corporate events alike"/>
+    <meta name="Puzzle Locked"
+        content="An enthralling escape room experience in Leeds LS1. Suitable for social and corporate events alike" />
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" />
@@ -61,7 +62,7 @@
                                     name="psize" required> <br>
                                 <label for="room">Pick Your Room:</label>
                                 <select name="room" id="room" class="form-control margin-bottom" required>
-                                    <option value="clear"></option>
+                                    <option value="">Select a room</option>
                                     <option value="vr">VR Experience</option>
                                     <option value="stopthebomb">Stop The Bomb!</option>
                                     <option value="wherearewe">Where Are We?</option>
@@ -69,9 +70,9 @@
                                 </select>
                                 <label for="attend">Date:</label>
                                 <input type="date" id="attend" class="form-control margin-bottom" required>
-                                <label for="time" min="11:00" max="20:00">Time:</label>
+                                <label for="time">Time:</label>
                                 <select name="time" id="time" class="form-control margin-bottom" required>
-                                    <option value="clear"></option>
+                                    <option value="">Select a time</option>
                                     <option value="11:00">11:00</option>
                                     <option value="12:30">12:30</option>
                                     <option value="14:00">14:00</option>
@@ -90,27 +91,29 @@
                         <div>
                             <h5 class="sub-header text-center">Price List</h5>
                             <table class="table text-center">
+                                <tr>
                                 <th>Number of People</th>
                                 <th>Price Per Person</th>
-                                <tr>
-                                    <th>2</th>
-                                    <th>£24</th>
                                 </tr>
                                 <tr>
-                                    <th>3</th>
-                                    <th>£22</th>
+                                    <td>2</td>
+                                    <td>£24</td>
                                 </tr>
                                 <tr>
-                                    <th>4</th>
-                                    <th>£20</th>
+                                    <td>3</td>
+                                    <td>£22</td>
                                 </tr>
                                 <tr>
-                                    <th>5</th>
-                                    <th>£18</th>
+                                    <td>4</td>
+                                    <td>£20</td>
                                 </tr>
                                 <tr>
-                                    <th>6</th>
-                                    <th>£16</th>
+                                    <td>5</td>
+                                    <td>£18</td>
+                                </tr>
+                                <tr>
+                                    <td>6</td>
+                                    <td>£16</td>
                                 </tr>
                             </table>
                             <p class="text-center"><small> Under 16’s must be accompanied by an adult</small></p>
@@ -205,7 +208,7 @@
             </div>
         </div>
     </footer>
-   
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
