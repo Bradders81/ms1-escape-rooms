@@ -54,7 +54,7 @@ The project will:
 
 ## Structure
 
-As the popularity of escapes room in the UK continues to grow, so does the commercial competition.  The site is to be built using dark contrasting colours and images that try to give a feel of mystery, given that a sense of mystery is part of the alluring attraction of an escape room experience.
+As the popularity of escape rooms in the UK continues to grow, so does the commercial competition.  The site is to be built using dark contrasting colours and images that try to give a feel of mystery, given that a sense of mystery is part of the alluring attraction of an escape room experience.
 
 Each page will have the same the colour scheme and navigation layout to encourage intuitive learning from the user.  The call to action button will take the user direct to the booking page, which will be set on a background hero image.  This will help serve the site owner's objective of generating bookings, but will also assist returning users who are aware of the service on offer and want to be able to access the booking page quickly.
 
@@ -75,7 +75,7 @@ The main colours to be used in the site are red and black, with the odd exceptio
 
 The main font family used is Merriweather Sans, sans-serif, with the exception of the logo 'Puzzle Locked!' in the navbar which uses the font family Luckiest Guy, cursive.
 
-I did some online research into fonts and Merriweather Sans was one that was mentioned as been easy on the eye, both on large PC monitors and mobile.  The font size is fixed to 16px, in the event the browser used to view the site does not have 16px as the default font size.
+I did some online research into fonts and Merriweather Sans was one that was mentioned as being easy on the eye, both on large PC monitors and mobile.  The font size is fixed to 16px, in the event the browser used to view the site does not have 16px as the default font size.
 
 I initially planned to have the content to sit on top of a background image or colour to scroll with the page.  However, the background images I finally settled on (red smoke) gives a better effect and UX with the background fixed.
 
@@ -103,7 +103,7 @@ The bottom section of the page will have customer comments. I did test doing thi
 
 ### Rooms
 
-This will include the name and a description of the escape rooms available along with a picture.  There will be a link/button on to take the user to the booking page.
+This will include the name and a description of the escape rooms available along with a picture.  There will be a link/button to take the user to the booking page.
 
 ### Gallery
 
@@ -118,7 +118,7 @@ The page will provide the user with the ability book an escape room online.  It 
 
 Online payments - the ability for a user to be able to make payment at the time of booking.
 
-Online version of an escape rooms - due to the COVID pandemic, people have been looking for more online forms of entertainment.
+Online version of an escape room - due to the COVID pandemic, people have been looking for more online forms of entertainment.
 
 Online feedback section.  The site could also link to pages such as Trip Advisor.
 
@@ -129,8 +129,8 @@ Online feedback section.  The site could also link to pages such as Trip Advisor
 * **HTML** - For the main structure of the site.
 * **CSS** - For the styling of the site.
 * [Bootstrap](https://https://getbootstrap.com/docs/4.5/getting-started/introduction/) - Used to provide the navbar and model and make the site responsive.
-* [FontAwesome](https://fontawesome.com/) - Use to provide icons for social media links and contact details.
-* [Google Fonts](https://fontawesome.com/) - Used to provide provide the fonts for the site.
+* [FontAwesome](https://fontawesome.com/) - Used to provide icons for social media links and contact details.
+* [Google Fonts](https://fontawesome.com/) - Used to provide the fonts for the site.
 * [Gitpod](https://www.gitpod.io/) - Within the Integrated Development Environment (IDE) used in this project.
     - Gitpod extensions used: Auto Close Tag; Bootstrap 4CDN Snippet for boilerplate and head; HTML Hint; Prettier; Color Picker; Indent-Rainbow; and Code Spell Checker.
 * [Git](https://git-scm.com/) - version control technology used in ths project.
@@ -172,13 +172,13 @@ The site is hosted in GitHub Pages and the following process can be used to depl
 1. From within the repository click on 'Code' button with the download icon.
 1. A small menu will appear to give you various options.  One option is to copy the URL provided in this menu.
 1. Within the Integrated Development Environment (IDE) that you are using, change the directory to the ULR you have just copied. 
-1. For more options and details as to how to clone the site click [here](https://docs.github.com/en/free-pro-team@latest/github/using-git/which-remote-url-should-i-use)
+1. For more options and details as to how to clone the site click [here](https://docs.github.com/en/free-pro-team@latest/github/using-git/which-remote-url-should-i-use) You may need to be logged into GitHubto view this page.
 
 ---
 
 ## Credits
 
-In the main I have used the skills have have learned from my studies at the Code Institute.  
+In the main I have used the skills I have learned from my studies at the Code Institute.  
 
 The way in which the social media icons/links are set out in an unordered list in the footer is taken from what I learned in the 'Resume Project' as part of the course.  
 
@@ -188,7 +188,7 @@ The general structure of this README is taken from one suggested by Code Institu
 
 **Bootstrap**: Code snippets have been used for the navbar and the mailing list modal, which I have commented in the html documents. Bootstrap CSS classes have also been used throughout the site.
 
-**Google Fonts**: the import at the to of style.css was copied from Google Fonts.
+**Google Fonts**: the import at the top of style.css was copied from Google Fonts.
 
 The code used for the sticky footer was taken from [CSS-Trick](https://css-tricks.com/couple-takes-sticky-footer/#there-is-flexbox), in an Article by Chris Coyier.  The article provides five ways to create a sticky footer.  I used the option headed 'There is a flex'
 
